@@ -13,5 +13,5 @@ files:
     translation: /src/%two_letters_code%/pages/%original_file_name%
     update_option: update_as_unapproved
   - source: /src/en/pages/index.js
-    translation: /src/%two_letters_code/pages/%original_file_name%
+    translation: /src/%two_letters_code%/pages/%original_file_name%
     update_option: update_as_unapproved
