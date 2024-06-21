@@ -1,17 +1,17 @@
 project_identifier: PROJECT_IDENTIFIER_CROWDIN
 api_key: API_KEY_CROWDIN
 base_path: ./
-preserve_hierarchy: true
+preserve_hierarchy: 1
 files:
   - source: /src/en/compononents/*.js
     translation: /src/%two_letters_code%/components/%original_file_name%
-    update_option: "update_as_unapproved"
+    update_option: update_as_unapproved
   - source: /src/en/data/*.js
-    update_option: "update_as_unapproved"
+    update_option: update_as_unapproved
     translation: /src/%two_letters_code%/data/%original_file_name%
   - source: /src/en/pages/team.js
     translation: /src/%two_letters_code%/pages/%original_file_name%
-    update_option: "update_as_unapproved"
+    update_option: update_as_unapproved
   - source: /src/en/pages/index.js
     translation: /src/%two_letters_code/pages/%original_file_name%
-    update_option: "update_as_unapproved"
+    update_option: update_as_unapproved
