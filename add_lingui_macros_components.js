@@ -16,7 +16,10 @@ module.exports = function(fileInfo, { jscodeshift: j }) {
   }
 
   // Function to wrap text nodes in the `t` macro
-  const wrapTextNode = (node) => j.callExpression(j.identifier('t'), [node]);
+  const wrapTextNode = (node) => j.templateLiteral(
+    [j.templateElement({ raw: node.value, cooked: node.value }, true)],
+    []
+  );
 
   // Process <Text> and <Heading> nodes
   root.find(j.JSXElement)
@@ -43,6 +46,7 @@ module.exports = function(fileInfo, { jscodeshift: j }) {
             }
           } else if (child.type === 'JSXElement') {
             child.children = processChildren(child.children);
+            return child;
           }
           return child;
         });
