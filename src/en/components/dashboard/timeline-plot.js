@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Box } from '@chakra-ui/react'
 import React from 'react'
 

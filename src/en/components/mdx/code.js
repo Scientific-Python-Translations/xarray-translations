@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Box, Code as ChakraCode } from '@chakra-ui/react'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { nord } from 'react-syntax-highlighter/dist/cjs/styles/prism'

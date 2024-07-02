@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import React from 'react'
 
 import { Box, Container, Flex, SimpleGrid, Text } from '@chakra-ui/react'
@@ -9,15 +10,11 @@ export const Sponsors = () => {
   const sponsors = React.useMemo(() => data, [])
 
   return (
-    <Box id={'sponsors'} as='section'>
+    (<Box id={'sponsors'} as='section'>
       <Container maxW='container.lg' centerContent>
-        <Heading as='h1' size='2xl'>
-          Supported By
-        </Heading>
-        <Text fontSize={'lg'}>
-          We thank these institutions for generously supporting the development
-          and maintenance of Xarray.
-        </Text>
+        <Heading as='h1' size='2xl'>{t`Supported By`}</Heading>
+        <Text fontSize={'lg'}>{t`We thank these institutions for generously supporting the development
+          and maintenance of Xarray.`}</Text>
 
         <SimpleGrid
           columns={{ base: 1, sm: 2, md: 2, lg: 4 }}
@@ -42,6 +39,6 @@ export const Sponsors = () => {
           ))}
         </SimpleGrid>
       </Container>
-    </Box>
-  )
+    </Box>)
+  );
 }

@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Divider, useColorMode } from '@chakra-ui/react'
 
 export const Hr = () => {

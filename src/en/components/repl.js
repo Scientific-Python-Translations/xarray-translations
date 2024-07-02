@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { AspectRatio, Box, Container, SimpleGrid, Text } from '@chakra-ui/react'
 
 import { Code, Heading } from '@/components/mdx'
@@ -62,15 +63,11 @@ data.isel(lon=0).plot();
 
 export const Repl = () => {
   return (
-    <Box id={'repl'} as='section'>
+    (<Box id={'repl'} as='section'>
       <Container maxW='container.lg' centerContent>
-        <Heading as='h1' size='2xl'>
-          Try Xarray
-        </Heading>
-        <Text fontSize={'lg'}>
-          Try Xarray in a REPL directly in your browser (no installation
-          needed)!
-        </Text>
+        <Heading as='h1' size='2xl'>{t`Try Xarray`}</Heading>
+        <Text fontSize={'lg'}>{t`Try Xarray in a REPL directly in your browser (no installation
+          needed)!`}</Text>
 
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={8} my={8}>
           <Code
@@ -92,6 +89,6 @@ export const Repl = () => {
           </AspectRatio>
         </SimpleGrid>
       </Container>
-    </Box>
-  )
+    </Box>)
+  );
 }

@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Image as ChakraImage } from '@chakra-ui/react'
 
 // Not functional: https://github.com/chakra-ui/chakra-ui/discussions/2475

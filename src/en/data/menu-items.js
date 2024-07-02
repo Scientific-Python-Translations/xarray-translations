@@ -1,9 +1,10 @@
+import { t } from "@lingui/macro";
 export const menuItems = [
-  { label: 'Features', href: '/#features' },
-  { label: 'Try', href: '/#repl' },
-  { label: 'Ecosystem', href: '/#ecosystem' },
-  { label: 'Sponsors', href: '/#sponsors' },
-  { label: 'Donate', href: '/#donate' },
-  { label: 'Blog', href: '/blog' },
-  { label: 'Documentation', href: 'https://docs.xarray.dev' },
+  { label: t`Features`, href: t`/#features` },
+  { label: t`Try`, href: t`/#repl` },
+  { label: t`Ecosystem`, href: t`/#ecosystem` },
+  { label: t`Sponsors`, href: t`/#sponsors` },
+  { label: t`Donate`, href: t`/#donate` },
+  { label: t`Blog`, href: t`/blog` },
+  { label: t`Documentation`, href: 'https://docs.xarray.dev' },
 ]
