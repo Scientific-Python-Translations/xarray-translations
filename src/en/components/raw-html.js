@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { sanitizeHTML } from '@/lib/sanitize-html'
 import { Box } from '@chakra-ui/react'
 import useSWR from 'swr'

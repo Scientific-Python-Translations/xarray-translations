@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Image } from '@/components/mdx'
 import { SocialLink } from '@/components/social-link'
 import { useGHUSER } from '@/lib/data-fetching'

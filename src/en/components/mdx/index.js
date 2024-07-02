@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 export { Code } from '@/components/mdx/code'
 export { CodeContainer } from '@/components/mdx/code-container'
 export { CopyButton } from '@/components/mdx/copy-button'

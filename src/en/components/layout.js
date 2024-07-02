@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Banner } from '@/components/banner'
 import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'

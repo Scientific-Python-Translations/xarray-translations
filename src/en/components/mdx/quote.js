@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Alert, useColorMode } from '@chakra-ui/react'
 
 export const Quote = (props) => {

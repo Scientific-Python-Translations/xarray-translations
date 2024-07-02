@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Link } from '@/components/mdx'
 import { Box } from '@chakra-ui/react'
 

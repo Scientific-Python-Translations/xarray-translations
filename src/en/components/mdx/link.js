@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Link as ChakraLink } from '@chakra-ui/react'
 import NextLink from 'next/link'
