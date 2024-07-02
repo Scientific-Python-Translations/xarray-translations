@@ -11,6 +11,10 @@ module.exports = {
       path: "<rootDir>/src/{locale}/data",
 	include: ["src/en/data"],
     },
+    {
+      path: "<rootDir>/src/{locale}/pages",
+      include: ["src/en/pages/team.js", "src/en/pages/index.js"],
+    },
   ],
   format: "po",
 };
