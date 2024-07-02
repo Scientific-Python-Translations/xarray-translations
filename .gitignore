@@ -4,6 +4,7 @@ node_modules/
 src/en/theme.js
 src/en/posts/
 src/en/lib/
-src/en/pages/
+src/en/pages/*
+!src/en/pages
 !src/en/pages/team.js
 !src/en/pages/index.js
