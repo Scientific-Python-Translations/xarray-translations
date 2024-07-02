@@ -1,9 +1,9 @@
 node_modules/
 
 # Ignore content which should not be translated
-theme.js
-posts/
-lib/
-pages/
-!pages/team.js
-!pages/index.js
+src/en/theme.js
+src/en/posts/
+src/en/lib/
+src/en/pages/
+!src/en/pages/team.js
+!src/en/pages/index.js
