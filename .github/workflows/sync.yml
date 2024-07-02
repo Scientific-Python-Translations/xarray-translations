@@ -59,5 +59,6 @@ jobs:
         if: env.CONTENT_CHANGED == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh pr create --base main --head ${{ env.BRANCH_NAME }} --title "Update source content" --body "Automated update of xarray.dev content and translations."
+        run: |
+          gh pr create --base main --head ${{ env.BRANCH_NAME }} --title "Update source content" --body "Automated update of xarray.dev content and translations."
         working-directory: ./xarray-translations
