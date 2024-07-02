@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import {
   Box,
   Button,
@@ -50,16 +51,12 @@ const GitHubStats = () => {
 
 export const Ecosystem = () => {
   return (
-    <Box id={'ecosystem'} as='section'>
+    (<Box id={'ecosystem'} as='section'>
       <Container maxW='container.lg' centerContent>
-        <Heading as='h1' size='2xl'>
-          Ecosystem
-        </Heading>
-        <Text fontSize={'lg'}>
-          Xarray is part of the larger scientific Python ecosystem. It is built
+        <Heading as='h1' size='2xl'>{t`Ecosystem`}</Heading>
+        <Text fontSize={'lg'}>{t`Xarray is part of the larger scientific Python ecosystem. It is built
           on top of NumPy, Pandas, and Dask and supports a wide range of domain
-          specific scientific applications.
-        </Text>
+          specific scientific applications.`}</Text>
 
         <Tabs
           my={8}
@@ -86,6 +83,6 @@ export const Ecosystem = () => {
           </TabPanels>
         </Tabs>
       </Container>
-    </Box>
-  )
+    </Box>)
+  );
 }

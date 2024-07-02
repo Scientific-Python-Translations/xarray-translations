@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Box, Heading as ChakraHeading } from '@chakra-ui/react'
 
 export const Heading = (props) => (

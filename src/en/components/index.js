@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 export { Banner } from '@/components/banner'
 export { Donate } from '@/components/donate'
 export { Ecosystem } from '@/components/ecosystem'
