@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 export { DatasetteStatsCard } from '@/components/dashboard/datasette-stats-card'
 export { IssueTracker } from '@/components/dashboard/issue-tracker'
 export { ProjectMetrics } from '@/components/dashboard/project-metrics'

@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { TimelinePlot } from '@/components/dashboard/timeline-plot'
 import { fetcher } from '@/lib/data-fetching'
 import {
@@ -35,12 +36,10 @@ export const TimelinePlotContainer = () => {
   const end = d3.max(data, (d) => d.time)
 
   return (
-    <Box my={8}>
-      <Text fontSize={'md'} align={'center'}>
-        This is a timeline of how many open issues and pull requests Xarray has
-        on Github over time from {new Date(start).toLocaleDateString()} to{' '}
-        {new Date(end).toLocaleDateString()}.
-      </Text>
+    (<Box my={8}>
+      <Text fontSize={'md'} align={'center'}>{t`This is a timeline of how many open issues and pull requests Xarray has
+        on Github over time from`}{new Date(start).toLocaleDateString()}{t`to`}{' '}
+        {new Date(end).toLocaleDateString()}{t`.`}</Text>
       <br />
       <br />
       <Tabs align='center' variant='enclosed' isFitted colorScheme='teal'>
@@ -69,6 +68,6 @@ export const TimelinePlotContainer = () => {
           </TabPanel>
         </TabPanels>
       </Tabs>
-    </Box>
-  )
+    </Box>)
+  );
 }

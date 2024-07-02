@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import GiscusComponent from '@giscus/react'
 
 export const Giscus = () => {

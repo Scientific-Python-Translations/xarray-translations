@@ -1,10 +1,11 @@
+import { t } from "@lingui/macro";
 export const Sponsors = [
-  { name: 'NSF', logo: '/NSF.svg', url: 'https://www.nsf.gov/' },
-  { name: 'NASA', logo: '/NASA_logo.svg', url: 'https://www.nasa.gov/' },
+  { name: t`NSF`, logo: t`/NSF.svg`, url: 'https://www.nsf.gov/' },
+  { name: t`NASA`, logo: t`/NASA_logo.svg`, url: 'https://www.nasa.gov/' },
   {
-    name: 'CZI',
-    logo: '/Chan_Zuckerberg_Initiative.svg',
+    name: t`CZI`,
+    logo: t`/Chan_Zuckerberg_Initiative.svg`,
     url: 'https://chanzuckerberg.com//',
   },
-  { name: 'NVIDIA', logo: '/Nvidia_logo.svg', url: 'https://www.nvidia.com/' },
+  { name: t`NVIDIA`, logo: t`/Nvidia_logo.svg`, url: 'https://www.nvidia.com/' },
 ]
