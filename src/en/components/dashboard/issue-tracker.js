@@ -10,7 +10,7 @@ export const IssueTracker = () => {
   return (
     (<Box as='section' id='issue-tracker'>
       <Container maxW='container.lg'>
-        <Heading as='h2' size='xl' textAlign={'center'}>{t`Xarray Issue Tracker`}</Heading>
+        <Heading as='h2' size='xl' textAlign={'center'}>{`Xarray Issue Tracker`}</Heading>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 5, lg: 8 }}>
           {' '}
           <TimeseriesAggStatsCard

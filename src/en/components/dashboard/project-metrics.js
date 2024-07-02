@@ -36,7 +36,7 @@ export const ProjectMetrics = () => {
     (<Box as='section' id='metrics'>
       <Container maxW='container.lg'>
         {' '}
-        <Heading as='h2' size='xl' textAlign={'center'}>{t`Xarray Project Metrics`}</Heading>
+        <Heading as='h2' size='xl' textAlign={'center'}>{`Xarray Project Metrics`}</Heading>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
           <StatisticsCard
             title={'Core Maintainers'}

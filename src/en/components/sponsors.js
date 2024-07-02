@@ -12,8 +12,8 @@ export const Sponsors = () => {
   return (
     (<Box id={'sponsors'} as='section'>
       <Container maxW='container.lg' centerContent>
-        <Heading as='h1' size='2xl'>{t`Supported By`}</Heading>
-        <Text fontSize={'lg'}>{t`We thank these institutions for generously supporting the development
+        <Heading as='h1' size='2xl'>{`Supported By`}</Heading>
+        <Text fontSize={'lg'}>{`We thank these institutions for generously supporting the development
           and maintenance of Xarray.`}</Text>
 
         <SimpleGrid

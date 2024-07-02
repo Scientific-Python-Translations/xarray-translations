@@ -11,7 +11,7 @@ export const ScientificDomains = () => {
 
   return (
     (<Box my={8}>
-      <Text fontSize={'lg'}>{t`This section lists some of the standalone packages, projects developed
+      <Text fontSize={'lg'}>{`This section lists some of the standalone packages, projects developed
         with xarray.`}</Text>
       <SimpleGrid
         my={8}

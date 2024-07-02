@@ -72,7 +72,7 @@ export const Footer = () => {
               />
             </Box>
 
-            <Text fontSize={'sm'}>{t`©`}{new Date().getFullYear()}{t`, Xarray core developers. Apache 2.0
+            <Text fontSize={'sm'}>{`©`}{new Date().getFullYear()}{`, Xarray core developers. Apache 2.0
               Licensed.`}</Text>
             <GitSHA />
 

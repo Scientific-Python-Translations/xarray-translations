@@ -37,9 +37,9 @@ export const TimelinePlotContainer = () => {
 
   return (
     (<Box my={8}>
-      <Text fontSize={'md'} align={'center'}>{t`This is a timeline of how many open issues and pull requests Xarray has
-        on Github over time from`}{new Date(start).toLocaleDateString()}{t`to`}{' '}
-        {new Date(end).toLocaleDateString()}{t`.`}</Text>
+      <Text fontSize={'md'} align={'center'}>{`This is a timeline of how many open issues and pull requests Xarray has
+        on Github over time from`}{new Date(start).toLocaleDateString()}{`to`}{' '}
+        {new Date(end).toLocaleDateString()}{`.`}</Text>
       <br />
       <br />
       <Tabs align='center' variant='enclosed' isFitted colorScheme='teal'>
