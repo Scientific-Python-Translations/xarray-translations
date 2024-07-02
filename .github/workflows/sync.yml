@@ -57,8 +57,9 @@ jobs:
           # Install dependencies
           npm install
           # Wrap strings with macros
-          npx jscodeshift -t add_lingui_macros_components.js src/en/components/**/*.jsx
-          npx jscodeshift -t add_lingui_macros_data.js src/en/data/**/*.js
+          npx jscodeshift -t add_lingui_macros_components.js src/en/components/**/*.js src/en/components/*.js
+          npx jscodeshift -t add_lingui_macros_components.js src/en/pages/index.js src/en/pages/teams.js
+          npx jscodeshift -t add_lingui_macros_data.js src/en/data/**/*.js src/en/data/*.js
           # Extract translations
           npx lingui extract
           # Commit and push changes
