@@ -36,7 +36,7 @@ export const HeroBanner = () => {
               <Text as={'span'} color={'red.400'}>{t`N-D labeled arrays and datasets in Python`}</Text>
             </Heading>
             <Text fontSize={'lg'}>
-              <strong>Xarray</strong>{t`is an open source project and Python
+              <strong>{t`Xarray`}</strong>{t`is an open source project and Python
               package that introduces labels in the form of dimensions,
               coordinates, and attributes on top of raw NumPy-like arrays, which
               allows for more intuitive, more concise, and less error-prone user

@@ -34,9 +34,7 @@ const Team = () => {
             <Link
               href={'https://github.com/pydata/xarray/graphs/contributors'}
               useExternalIcon
-            >
-              370 volunteer contributors
-            </Link>{t`. We appreciate all contributions from community to make Xarray
+            >{t`370 volunteer contributors`}</Link>{t`. We appreciate all contributions from community to make Xarray
             thrive.`}</Text>
           <Box
             as={Link}
