@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { Box, SimpleGrid, Tag, TagLabel } from '@chakra-ui/react'
 
 export const DomainsTags = ({ domains }) => {

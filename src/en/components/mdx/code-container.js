@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { Box } from '@chakra-ui/react'
 
 export const CodeContainer = (props) => {

@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { Link } from '@/components/mdx'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import {

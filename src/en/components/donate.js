@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import {
   Box,
   Button,
@@ -14,9 +13,11 @@ import { BiDonateHeart } from 'react-icons/bi'
 
 export const Donate = () => {
   return (
-    (<Box id={'donate'} as='section'>
+    <Box id={'donate'} as='section'>
       <Container maxW='container.lg' centerContent>
-        <Heading as='h1' size='2xl'>{t`Donate`}</Heading>
+        <Heading as='h1' size='2xl'>
+          Donate
+        </Heading>
         <SimpleGrid
           columns={{ base: 1, md: 2 }}
           spacing={8}
@@ -31,23 +32,33 @@ export const Donate = () => {
             align={'center'}
             position={'relative'}
           >
-            <Text fontSize={'lg'}>{t`Xarray is a Sponsored Project of NumFOCUS, a`}{' '}
+            <Text fontSize={'lg'}>
+              Xarray is a Sponsored Project of NumFOCUS, a{' '}
               <Text
                 as={Link}
                 href={'https://en.wikipedia.org/wiki/501(c)(3)_organization'}
                 color={'blue.400'}
                 useExternalIcon
-              >{t`501(c)(3) nonprofit charity`}</Text>{' '}{t`in the United States. NumFOCUS provides Xarray with fiscal, legal,
+              >
+                501(c)(3) nonprofit charity
+              </Text>{' '}
+              in the United States. NumFOCUS provides Xarray with fiscal, legal,
               and administrative support to help ensure the health and
-              sustainability of the project. Visit`}{' '}
+              sustainability of the project. Visit{' '}
               <Text
                 as={Link}
                 useExternalIcon
                 href={'https://numfocus.org/'}
                 color={'blue.400'}
-              >{t`numfocus.org`}</Text>{' '}{t`for more information.`}<br />
-              <br />{t`If you like Xarray and want to support our mission, please
-              consider making a donation to support our efforts.`}</Text>
+              >
+                numfocus.org
+              </Text>{' '}
+              for more information.
+              <br />
+              <br />
+              If you like Xarray and want to support our mission, please
+              consider making a donation to support our efforts.
+            </Text>
             <Button
               as={Link}
               fontWeight={'normal'}
@@ -67,6 +78,6 @@ export const Donate = () => {
           ></Image>
         </SimpleGrid>
       </Container>
-    </Box>)
-  );
+    </Box>
+  )
 }

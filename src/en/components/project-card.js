@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { DomainsTags } from '@/components/domains-tags'
 import { Image, Link } from '@/components/mdx'
 import { Box, LinkBox, LinkOverlay, Stack, Text } from '@chakra-ui/react'

@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { Link } from '@/components/mdx'
 import { Icon, VisuallyHidden } from '@chakra-ui/react'
 

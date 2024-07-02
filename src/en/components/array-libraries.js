@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { Box, Circle, Flex, SimpleGrid, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 import { IoIosGlobe, IoLogoGithub } from 'react-icons/io'
@@ -44,9 +43,12 @@ const Library = ({ name, description, repo, url, logo }) => {
 export const ArrayLibraries = () => {
   const libraries = React.useMemo(() => data, [])
   return (
-    (<Box my={8}>
-      <Text fontSize={'lg'}>{t`Xarray supports multiple array backends, allowing users to choose array
-        types that work best for their application.`}</Text>
+    <Box my={8}>
+      <Text fontSize={'lg'}>
+        Xarray supports multiple array backends, allowing users to choose array
+        types that work best for their application.
+      </Text>
+
       <SimpleGrid
         columns={{ base: 1, md: 2, lg: 3 }}
         spacing={8}
@@ -64,6 +66,6 @@ export const ArrayLibraries = () => {
           />
         ))}
       </SimpleGrid>
-    </Box>)
-  );
+    </Box>
+  )
 }

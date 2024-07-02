@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { Button, useClipboard } from '@chakra-ui/react'
 
 export const CopyButton = ({ code, ...props }) => {

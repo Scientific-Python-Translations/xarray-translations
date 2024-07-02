@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { Code } from '@/components/mdx/code'
 import { Heading } from '@/components/mdx/heading'
 import { Hr } from '@/components/mdx/hr'

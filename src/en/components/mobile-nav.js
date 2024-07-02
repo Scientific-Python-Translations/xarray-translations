@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { ChevronDownIcon } from '@chakra-ui/icons'
 import {
   Collapse,

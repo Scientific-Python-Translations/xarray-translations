@@ -1,52 +1,51 @@
-import { t } from "@lingui/macro";
 export const footerItems = {
   xarray: [
-    { label: t`Dashboard`, href: t`/dashboard` },
-    { label: t`Blog`, href: t`/blog` },
-    { label: t`Team`, href: t`/team` },
+    { label: 'Dashboard', href: '/dashboard' },
+    { label: 'Blog', href: '/blog' },
+    { label: 'Team', href: '/team' },
     {
-      label: t`Citing Xarray`,
+      label: 'Citing Xarray',
       href: 'https://docs.xarray.dev/en/stable/getting-started-guide/faq.html#how-should-i-cite-xarray',
     },
     {
-      label: t`Roadmap`,
+      label: 'Roadmap',
       href: 'https://docs.xarray.dev/en/stable/roadmap.html',
     },
     {
-      label: t`Brand Assets`,
+      label: 'Brand Assets',
       href: 'https://github.com/xarray-contrib/xarray.dev/tree/main/public/Xarray-assets',
     },
   ],
 
   resources: [
-    { label: t`Documentation`, href: 'https://docs.xarray.dev/en/stable/' },
+    { label: 'Documentation', href: 'https://docs.xarray.dev/en/stable/' },
     {
-      label: t`Tutorials`,
+      label: 'Tutorials',
       href: 'https://docs.xarray.dev/en/stable/tutorials-and-videos.html',
     },
     {
-      label: t`Example Gallery`,
+      label: 'Example Gallery',
       href: 'https://docs.xarray.dev/en/stable/gallery.html',
     },
-    { label: t`Compatible Projects`, href: 'https://github.com/xarray-contrib' },
+    { label: 'Compatible Projects', href: 'https://github.com/xarray-contrib' },
   ],
 
   community: [
     {
-      label: t`Contribute`,
+      label: 'Contribute',
       href: 'https://docs.xarray.dev/en/stable/contributing.html',
     },
     {
-      label: t`GitHub Discussions`,
+      label: 'GitHub Discussions',
       href: 'https://github.com/pydata/xarray/discussions',
     },
-    { label: t`Issue Tracker`, href: 'https://github.com/pydata/xarray/issues' },
+    { label: 'Issue Tracker', href: 'https://github.com/pydata/xarray/issues' },
     {
-      label: t`Stack Overflow`,
+      label: 'Stack Overflow',
       href: 'https://stackoverflow.com/questions/tagged/python-xarray',
     },
     {
-      label: t`Mailing List`,
+      label: 'Mailing List',
       href: 'https://groups.google.com/forum/#!forum/xarray',
     },
   ],

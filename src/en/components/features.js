@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import {
   Box,
   Container,
@@ -17,13 +16,17 @@ import { CheckIcon } from '@chakra-ui/icons'
 export const Features = () => {
   const features = React.useMemo(() => data, [])
   return (
-    (<Box id={'features'} as='section'>
+    <Box id={'features'} as='section'>
       <Container maxW='container.lg' centerContent>
-        <Heading as='h1' size='2xl'>{t`Key Features & Capabilities`}</Heading>
-        <Text fontSize={'lg'}>{t`Xarray provides data models for working with labeled arrays and
+        <Heading as='h1' size='2xl'>
+          Key Features & Capabilities
+        </Heading>
+        <Text fontSize={'lg'}>
+          Xarray provides data models for working with labeled arrays and
           datasets. Its toolkit includes a broad set of domain-agnostic
           functions for advanced analytics and visualization with these data
-          structures.`}</Text>
+          structures.
+        </Text>
 
         <SimpleGrid columns={{ base: 1, md: 2, lg: 4 }} spacing={8} my={8}>
           {features.map((feature, index) => (
@@ -39,6 +42,6 @@ export const Features = () => {
           ))}
         </SimpleGrid>
       </Container>
-    </Box>)
-  );
+    </Box>
+  )
 }

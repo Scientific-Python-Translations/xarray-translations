@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import {
   Box,
   Button,
@@ -53,7 +52,7 @@ const ListHeader = ({ children }) => {
 
 export const Footer = () => {
   return (
-    (<Box
+    <Box
       bg={useColorModeValue('gray.50', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}
       as='footer'
@@ -72,8 +71,10 @@ export const Footer = () => {
               />
             </Box>
 
-            <Text fontSize={'sm'}>{t`©`}{new Date().getFullYear()}{t`, Xarray core developers. Apache 2.0
-              Licensed.`}</Text>
+            <Text fontSize={'sm'}>
+              © {new Date().getFullYear()}, Xarray core developers. Apache 2.0
+              Licensed.
+            </Text>
             <GitSHA />
 
             <Stack direction={'row'} spacing={2}>
@@ -156,6 +157,6 @@ export const Footer = () => {
           <VercelCallout />
         </VStack>
       </Container>
-    </Box>)
-  );
+    </Box>
+  )
 }

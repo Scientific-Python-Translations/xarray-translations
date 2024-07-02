@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { DesktopNav } from '@/components/desktop-nav'
 import { Link } from '@/components/mdx'
 import { MobileNav } from '@/components/mobile-nav'
