@@ -45,6 +45,29 @@ jobs:
             git push -u origin ${{ env.BRANCH_NAME }}
           fi
 
+      - name: Set up Node.js
+        if: env.CONTENT_CHANGED == 'true'
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Process and extract translations
+        if: env.CONTENT_CHANGED == 'true'
+        run: |
+          # Install dependencies
+          npm install
+          # Wrap strings with macros
+          npx jscodeshift -t add_lingui_macros_components.js src/en/components/**/*.js src/en/components/*.js
+          npx jscodeshift -t add_lingui_macros_components.js src/en/pages/index.js src/en/pages/teams.js
+          npx jscodeshift -t add_lingui_macros_data.js src/en/data/**/*.js src/en/data/*.js
+          # Extract translations
+          npx lingui extract
+          # Commit and push changes
+          git add .
+          git commit -m "Update website content and translations"
+          git push -u origin ${{ env.BRANCH_NAME }}
+        working-directory: ./xarray-translations
+
       - name: Create Pull Request
         if: env.CONTENT_CHANGED == 'true'
         env:
