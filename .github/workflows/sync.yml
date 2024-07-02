@@ -8,7 +8,6 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # Run only on main branch in upstream repo.
     if: ${{ github.repository == 'scientific-python-translations/xarray-translations' && github.ref == 'refs/heads/main' }}
     steps:
       - name: Set the branch name with more granularity
@@ -30,48 +29,35 @@ jobs:
       - name: Sync the website content
         run: |
           rsync -av --delete xarray.dev/src/ xarray-translations/src/en/
-          cd xarray-translations
-          git checkout -b ${{ env.BRANCH_NAME }}
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add .
-          # Only proceed to commit if there are changes
-          if git diff --staged --quiet; then
-            echo "No changes to commit."
-            echo "CONTENT_CHANGED=false" >> $GITHUB_ENV
-          else
-            git commit -m "Update website content"
-            echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
-            git push -u origin ${{ env.BRANCH_NAME }}
-          fi
 
       - name: Set up Node.js
-        if: env.CONTENT_CHANGED == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Process and extract translations
-        if: env.CONTENT_CHANGED == 'true'
         run: |
-          # Install dependencies
+          cd xarray-translations
           npm install
-          # Wrap strings with macros
           npx jscodeshift -t add_lingui_macros_components.js src/en/components/**/*.js src/en/components/*.js
-          npx jscodeshift -t add_lingui_macros_components.js src/en/pages/index.js src/en/pages/teams.js
+          npx jscodeshift -t add_lingui_macros_components.js src/en/pages/index.js src/en/pages/team.js
           npx jscodeshift -t add_lingui_macros_data.js src/en/data/**/*.js src/en/data/*.js
-          # Extract translations
           npx lingui extract
-          # Commit and push changes
+          git checkout -b ${{ env.BRANCH_NAME }}
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
           git add .
-          git commit -m "Update website content and translations"
-          git push -u origin ${{ env.BRANCH_NAME }}
-        working-directory: ./xarray-translations
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            echo "CONTENT_CHANGED=false" >> $GITHUB_ENV
+          else
+            git commit -m "Update website content and translations"
+            echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
+            git push -u origin ${{ env.BRANCH_NAME }}
 
       - name: Create Pull Request
         if: env.CONTENT_CHANGED == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run:
-          gh pr create --base main --head ${{ env.BRANCH_NAME }} --title "Update source content" --body "Automated update of xarray.dev content."
+        run: gh pr create --base main --head ${{ env.BRANCH_NAME }} --title "Update source content" --body "Automated update of xarray.dev content and translations."
         working-directory: ./xarray-translations
