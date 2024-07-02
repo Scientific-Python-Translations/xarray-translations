@@ -15,35 +15,11 @@ module.exports = function(fileInfo, { jscodeshift: j }) {
     );
   }
 
-  // Function to wrap text nodes in the `t` macro
+  // Function to wrap text nodes in the `t` macro using template literals
   const wrapTextNode = (node) => j.taggedTemplateExpression(
     j.identifier('t'),
-    j.templateLiteral(
-      [j.templateElement({ raw: node.value, cooked: node.value })],
-      []
-    )
+    j.templateLiteral([j.templateElement({ raw: node.value, cooked: node.value }, true)], [])
   );
-
-  // Function to process text within <Text> and <Heading> tags
-  const processTextNode = (children) => {
-    return children.map(child => {
-      if (child.type === 'JSXText') {
-        const trimmedValue = child.value.trim();
-        if (trimmedValue) {
-          return j.jsxExpressionContainer(wrapTextNode(j.stringLiteral(trimmedValue)));
-        }
-      } else if (child.type === 'JSXExpressionContainer' && child.expression.type === 'Literal') {
-        const trimmedValue = child.expression.value.trim();
-        if (trimmedValue) {
-          return j.jsxExpressionContainer(wrapTextNode(j.stringLiteral(trimmedValue)));
-        }
-      } else if (child.type === 'JSXElement') {
-        child.children = processTextNode(child.children);
-        return child;
-      }
-      return child;
-    });
-  };
 
   // Process <Text> and <Heading> nodes
   root.find(j.JSXElement)
@@ -52,7 +28,35 @@ module.exports = function(fileInfo, { jscodeshift: j }) {
       return tagName === 'Text' || tagName === 'Heading';
     })
     .forEach(path => {
-      path.node.children = processTextNode(path.node.children);
+      let modified = false;
+
+      const processChildren = (children) => {
+        return children.map(child => {
+          if (child.type === 'JSXText') {
+            const trimmedValue = child.value.trim();
+            if (trimmedValue) {
+              modified = true;
+              return j.jsxExpressionContainer(wrapTextNode(j.stringLiteral(trimmedValue)));
+            }
+          } else if (child.type === 'JSXExpressionContainer' && child.expression.type === 'Literal') {
+            const trimmedValue = child.expression.value.trim();
+            if (trimmedValue) {
+              modified = true;
+              return j.jsxExpressionContainer(wrapTextNode(j.stringLiteral(trimmedValue)));
+            }
+          } else if (child.type === 'JSXElement') {
+            child.children = processChildren(child.children);
+            return child;
+          }
+          return child;
+        });
+      };
+
+      path.node.children = processChildren(path.node.children);
+
+      if (modified) {
+        console.log(`Modified tag: ${path.node.openingElement.name.name}`);
+      }
     });
 
   return root.toSource();
