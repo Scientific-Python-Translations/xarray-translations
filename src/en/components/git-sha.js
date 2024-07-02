@@ -1,3 +1,4 @@
+import { t } from "@lingui/macro";
 import { Link } from '@/components/mdx'
 import { Flex, Text } from '@chakra-ui/react'
 import { IoGitBranchOutline } from 'react-icons/io5'

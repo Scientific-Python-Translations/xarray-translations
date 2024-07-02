@@ -1,48 +1,49 @@
+import { t } from "@lingui/macro";
 export const Libraries = [
   {
-    name: 'NumPy',
+    name: t`NumPy`,
     description:
-      'NumPy is the fundamental package for array computing with Python.',
+      t`NumPy is the fundamental package for array computing with Python.`,
     url: 'https://numpy.org',
     repo: 'https://github.com/numpy/numpy',
-    logo: '/libraries/numpy_logo.svg',
+    logo: t`/libraries/numpy_logo.svg`,
   },
   {
-    name: 'Dask',
+    name: t`Dask`,
     description:
-      'Distributed arrays and advanced parallelism for analytics, enabling performance at scale.',
+      t`Distributed arrays and advanced parallelism for analytics, enabling performance at scale.`,
     url: 'https://dask.org/',
     repo: 'https://github.com/dask/dask',
-    logo: '/libraries/dask_horizontal.svg',
+    logo: t`/libraries/dask_horizontal.svg`,
   },
   {
-    name: 'CuPy',
+    name: t`CuPy`,
     description:
-      'NumPy-compatible array library for GPU-accelerated computing with Python.',
+      t`NumPy-compatible array library for GPU-accelerated computing with Python.`,
     url: 'https://cupy.chainer.org/',
     repo: 'https://github.com/cupy/cupy',
-    logo: '/libraries/cupy_logo_1000px.png',
+    logo: t`/libraries/cupy_logo_1000px.png`,
   },
   {
-    name: 'Zarr',
+    name: t`Zarr`,
     description:
-      'An implementation of chunked, compressed, N-dimensional arrays for Python.',
+      t`An implementation of chunked, compressed, N-dimensional arrays for Python.`,
     url: 'http://zarr.readthedocs.io/',
     repo: 'https://github.com/zarr-developers/zarr-python',
-    logo: '/libraries/zarr-pink-stacked.svg',
+    logo: t`/libraries/zarr-pink-stacked.svg`,
   },
   {
-    name: 'Sparse',
-    description: 'Sparse multi-dimensional arrays for the PyData ecosystem',
+    name: t`Sparse`,
+    description: t`Sparse multi-dimensional arrays for the PyData ecosystem`,
     url: 'https://sparse.pydata.org/',
     repo: 'https://github.com/pydata/sparse',
-    logo: '/libraries/sparse-logo.png',
+    logo: t`/libraries/sparse-logo.png`,
   },
   {
-    name: 'Pint',
-    description: 'Operate and manipulate physical quantities in Python',
+    name: t`Pint`,
+    description: t`Operate and manipulate physical quantities in Python`,
     url: 'http://pint.readthedocs.org/',
     repo: 'https://github.com/hgrecco/pint',
-    logo: '/libraries/pint-logo-full.jpg',
+    logo: t`/libraries/pint-logo-full.jpg`,
   },
 ]
