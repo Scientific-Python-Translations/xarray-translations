@@ -1,0 +1,687 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-07-02 17:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: c8a631743e21d4c69bee82f0cb0d697e\n"
+"X-Crowdin-Project-ID: 14\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /[Scientific-Python-Translations.xarray-translations] main/src/en/data.po\n"
+"X-Crowdin-File-ID: 710\n"
+"Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
+"Language-Team: Persian\n"
+"PO-Revision-Date: 2024-07-02 17:06\n"
+
+#: src/en/data/features.js:9
+#: src/en/data/features.js:13
+msgid ""
+msgstr ""
+"/+Z5u4"
+
+#: src/en/data/menu-items.js:7
+msgid "/#donate"
+msgstr ""
+
+#: src/en/data/menu-items.js:5
+msgid "/#ecosystem"
+msgstr ""
+
+#: src/en/data/menu-items.js:3
+msgid "/#features"
+msgstr ""
+
+#: src/en/data/menu-items.js:4
+msgid "/#repl"
+msgstr ""
+
+#: src/en/data/menu-items.js:6
+msgid "/#sponsors"
+msgstr ""
+
+#: src/en/data/footer-items.js:5
+#: src/en/data/menu-items.js:8
+msgid "/blog"
+msgstr ""
+
+#: src/en/data/sponsors.js:7
+msgid "/Chan_Zuckerberg_Initiative.svg"
+msgstr ""
+
+#: src/en/data/footer-items.js:4
+msgid "/dashboard"
+msgstr ""
+
+#: src/en/data/array-libraries.js:25
+msgid "/libraries/cupy_logo_1000px.png"
+msgstr ""
+
+#: src/en/data/array-libraries.js:17
+msgid "/libraries/dask_horizontal.svg"
+msgstr ""
+
+#: src/en/data/array-libraries.js:9
+msgid "/libraries/numpy_logo.svg"
+msgstr ""
+
+#: src/en/data/array-libraries.js:47
+msgid "/libraries/pint-logo-full.jpg"
+msgstr ""
+
+#: src/en/data/array-libraries.js:40
+msgid "/libraries/sparse-logo.png"
+msgstr ""
+
+#: src/en/data/array-libraries.js:33
+msgid "/libraries/zarr-pink-stacked.svg"
+msgstr ""
+
+#: src/en/data/sponsors.js:4
+msgid "/NASA_logo.svg"
+msgstr ""
+
+#: src/en/data/sponsors.js:3
+msgid "/NSF.svg"
+msgstr ""
+
+#: src/en/data/sponsors.js:10
+msgid "/Nvidia_logo.svg"
+msgstr ""
+
+#: src/en/data/projects.js:27
+msgid "/projects/ArviZ.svg"
+msgstr ""
+
+#: src/en/data/projects.js:87
+msgid "/projects/cf-xarray-logo.svg"
+msgstr ""
+
+#: src/en/data/projects.js:44
+msgid "/projects/climpred-logo.png"
+msgstr ""
+
+#: src/en/data/projects.js:70
+msgid "/projects/hvplot-logo_horizontal.svg"
+msgstr ""
+
+#: src/en/data/projects.js:36
+msgid "/projects/metpy_horizontal.png"
+msgstr ""
+
+#: src/en/data/projects.js:96
+msgid "/projects/OMFIT_logo.png"
+msgstr ""
+
+#: src/en/data/projects.js:78
+msgid "/projects/pangeo_simple_logo.svg"
+msgstr ""
+
+#: src/en/data/projects.js:104
+msgid "/projects/sgkit_trnsprnt.png"
+msgstr ""
+
+#: src/en/data/projects.js:61
+msgid "/projects/squidpy_horizontal.png"
+msgstr ""
+
+#: src/en/data/projects.js:18
+msgid "/projects/verde-logo.svg"
+msgstr ""
+
+#: src/en/data/projects.js:52
+msgid "/projects/Xarray-Spatial-logo.svg"
+msgstr ""
+
+#: src/en/data/projects.js:9
+msgid "/projects/xgcm-logo.png"
+msgstr ""
+
+#: src/en/data/projects.js:113
+msgid "/projects/xmip.png"
+msgstr ""
+
+#: src/en/data/footer-items.js:6
+msgid "/team"
+msgstr ""
+
+#: src/en/data/projects.js:6
+msgid "🌊 Oceanography"
+msgstr ""
+
+#: src/en/data/projects.js:41
+#: src/en/data/projects.js:75
+#: src/en/data/projects.js:84
+#: src/en/data/projects.js:110
+msgid "🌎 Geoscience"
+msgstr ""
+
+#: src/en/data/projects.js:33
+msgid "🌪🌡 Meteorology"
+msgstr ""
+
+#: src/en/data/projects.js:58
+msgid "💊 Bioinformatics"
+msgstr ""
+
+#: src/en/data/projects.js:93
+msgid "💥 plasma physics"
+msgstr ""
+
+#: src/en/data/projects.js:67
+msgid "📊 Visualization"
+msgstr ""
+
+#: src/en/data/projects.js:15
+#: src/en/data/projects.js:49
+msgid "🗺️ Geographic Processing"
+msgstr ""
+
+#: src/en/data/projects.js:101
+msgid "🧬 genomics"
+msgstr ""
+
+#: src/en/data/projects.js:74
+msgid "A community platform for Big Data geoscience"
+msgstr ""
+
+#: src/en/data/projects.js:66
+msgid "A high-level plotting API for the PyData ecosystem built on HoloViews"
+msgstr ""
+
+#: src/en/data/team-members.js:18
+msgid "Alessandro Amici"
+msgstr ""
+
+#: src/en/data/team-members.js:18
+msgid "alexamici"
+msgstr ""
+
+#: src/en/data/projects.js:83
+msgid "An accessor for Xarray objects that interprets  Climate and Forecast (CF) metadata convention attributes"
+msgstr ""
+
+#: src/en/data/array-libraries.js:30
+msgid "An implementation of chunked, compressed, N-dimensional arrays for Python."
+msgstr ""
+
+#: src/en/data/projects.js:109
+msgid "Analysis ready CMIP6 data in Python the easy way with pangeo tools."
+msgstr ""
+
+#: src/en/data/team-members.js:16
+msgid "Anderson Banihirwe"
+msgstr ""
+
+#: src/en/data/team-members.js:16
+msgid "andersy005"
+msgstr ""
+
+#: src/en/data/features.js:8
+msgid "Apply operations over named dimensions"
+msgstr ""
+
+#: src/en/data/features.js:28
+msgid "Arbitrary metadata tracking"
+msgstr ""
+
+#: src/en/data/projects.js:21
+msgid "arviz"
+msgstr ""
+
+#: src/en/data/team-members.js:19
+msgid "Aureliana Barghini"
+msgstr ""
+
+#: src/en/data/team-members.js:19
+msgid "aurghs"
+msgstr ""
+
+#: src/en/data/projects.js:23
+msgid "Backend-agnostic tools for diagnostics and visualizations of Bayesian inference in Python"
+msgstr ""
+
+#: src/en/data/projects.js:24
+msgid "Bayesian Inference"
+msgstr ""
+
+#: src/en/data/team-members.js:6
+msgid "benbovy"
+msgstr ""
+
+#: src/en/data/team-members.js:6
+msgid "Benôit Bovy"
+msgstr ""
+
+#: src/en/data/footer-items.js:5
+#: src/en/data/menu-items.js:8
+msgid "Blog"
+msgstr ""
+
+#: src/en/data/footer-items.js:16
+msgid "Brand Assets"
+msgstr ""
+
+#: src/en/data/projects.js:81
+msgid "cf-xarray"
+msgstr ""
+
+#: src/en/data/footer-items.js:8
+msgid "Citing Xarray"
+msgstr ""
+
+#: src/en/data/projects.js:39
+msgid "climpred"
+msgstr ""
+
+#: src/en/data/projects.js:32
+msgid "Collection of tools for reading, visualizing and performing calculations with weather data"
+msgstr ""
+
+#: src/en/data/projects.js:57
+msgid "Collection of tools for the analysis and visualization of spatial molecular data"
+msgstr ""
+
+#: src/en/data/footer-items.js:31
+msgid "Compatible Projects"
+msgstr ""
+
+#: src/en/data/footer-items.js:36
+msgid "Contribute"
+msgstr ""
+
+#: src/en/data/team-members.js:13
+msgid "crusaderky"
+msgstr ""
+
+#: src/en/data/array-libraries.js:20
+msgid "CuPy"
+msgstr ""
+
+#: src/en/data/sponsors.js:6
+msgid "CZI"
+msgstr ""
+
+#: src/en/data/footer-items.js:4
+msgid "Dashboard"
+msgstr ""
+
+#: src/en/data/array-libraries.js:12
+msgid "Dask"
+msgstr ""
+
+#: src/en/data/features.js:25
+msgid "Database like alignment based on coordinate labels that smoothly handles missing values."
+msgstr ""
+
+#: src/en/data/features.js:24
+msgid "Database like operations"
+msgstr ""
+
+#: src/en/data/team-members.js:10
+msgid "dcherian"
+msgstr ""
+
+#: src/en/data/team-members.js:10
+msgid "Deepak Cherian"
+msgstr ""
+
+#: src/en/data/array-libraries.js:14
+msgid "Distributed arrays and advanced parallelism for analytics, enabling performance at scale."
+msgstr ""
+
+#: src/en/data/footer-items.js:22
+#: src/en/data/menu-items.js:9
+msgid "Documentation"
+msgstr ""
+
+#: src/en/data/menu-items.js:7
+msgid "Donate"
+msgstr ""
+
+#: src/en/data/menu-items.js:5
+msgid "Ecosystem"
+msgstr ""
+
+#: src/en/data/team-members.js:26
+msgid "Eni Awowale"
+msgstr ""
+
+#: src/en/data/team-members.js:26
+msgid "eni-awowale"
+msgstr ""
+
+#: src/en/data/footer-items.js:28
+msgid "Example Gallery"
+msgstr ""
+
+#: src/en/data/team-members.js:7
+msgid "Fabien Maussion"
+msgstr ""
+
+#: src/en/data/menu-items.js:3
+msgid "Features"
+msgstr ""
+
+#: src/en/data/team-members.js:24
+msgid "flamingbear"
+msgstr ""
+
+#: src/en/data/features.js:32
+msgid "Flexible and Extensible I/O backend API"
+msgstr ""
+
+#: src/en/data/features.js:21
+msgid "Flexible split-apply-combine operations with groupby."
+msgstr ""
+
+#: src/en/data/team-members.js:7
+msgid "fmaussion"
+msgstr ""
+
+#: src/en/data/team-members.js:8
+msgid "fujiisoup"
+msgstr ""
+
+#: src/en/data/projects.js:5
+msgid "General Circulation Model Postprocessing with xarray"
+msgstr ""
+
+#: src/en/data/footer-items.js:40
+msgid "GitHub Discussions"
+msgstr ""
+
+#: src/en/data/features.js:20
+msgid "GroupBy operations"
+msgstr ""
+
+#: src/en/data/team-members.js:13
+msgid "Guido Imperiale"
+msgstr ""
+
+#: src/en/data/team-members.js:20
+msgid "headtr1ck"
+msgstr ""
+
+#: src/en/data/projects.js:64
+msgid "hvPlot"
+msgstr ""
+
+#: src/en/data/team-members.js:17
+msgid "Illviljan"
+msgstr ""
+
+#: src/en/data/projects.js:92
+msgid "Integrated modeling and experimental data analysis software for magnetically confined thermonuclear fusion experiments"
+msgstr ""
+
+#: src/en/data/features.js:4
+msgid "Interoperability"
+msgstr ""
+
+#: src/en/data/features.js:5
+msgid "Interoperable with the scientific Python ecosystem including NumPy, Dask, Pandas, and Matplotlib."
+msgstr ""
+
+#: src/en/data/footer-items.js:43
+msgid "Issue Tracker"
+msgstr ""
+
+#: src/en/data/team-members.js:23
+msgid "Jessica Scheick"
+msgstr ""
+
+#: src/en/data/team-members.js:23
+msgid "JessicaS11"
+msgstr ""
+
+#: src/en/data/team-members.js:4
+msgid "jhamman"
+msgstr ""
+
+#: src/en/data/team-members.js:17
+msgid "Jimmy Westling"
+msgstr ""
+
+#: src/en/data/team-members.js:4
+msgid "Joe Hamman"
+msgstr ""
+
+#: src/en/data/team-members.js:14
+msgid "Justus Magin"
+msgstr ""
+
+#: src/en/data/team-members.js:21
+msgid "Kai Mühlbauer"
+msgstr ""
+
+#: src/en/data/features.js:29
+msgid "Keep track of arbitrary metadata in the form of a Python dictionary."
+msgstr ""
+
+#: src/en/data/team-members.js:14
+msgid "keewis"
+msgstr ""
+
+#: src/en/data/team-members.js:8
+msgid "Keisuke Fujii"
+msgstr ""
+
+#: src/en/data/team-members.js:21
+msgid "kmuehlbauer"
+msgstr ""
+
+#: src/en/data/footer-items.js:49
+msgid "Mailing List"
+msgstr ""
+
+#: src/en/data/team-members.js:15
+msgid "mathause"
+msgstr ""
+
+#: src/en/data/features.js:17
+msgid "Mathematical operations vectorize across multiple dimensions (array broadcasting) based on dimension names, not shape."
+msgstr ""
+
+#: src/en/data/team-members.js:15
+msgid "Mathias Hauser"
+msgstr ""
+
+#: src/en/data/team-members.js:24
+msgid "Matt Savoie"
+msgstr ""
+
+#: src/en/data/team-members.js:9
+msgid "max-sixty"
+msgstr ""
+
+#: src/en/data/team-members.js:9
+msgid "Maximilian Roos"
+msgstr ""
+
+#: src/en/data/projects.js:30
+msgid "MetPy"
+msgstr ""
+
+#: src/en/data/team-members.js:20
+msgid "Mick Niklas"
+msgstr ""
+
+#: src/en/data/sponsors.js:4
+msgid "NASA"
+msgstr ""
+
+#: src/en/data/sponsors.js:3
+msgid "NSF"
+msgstr ""
+
+#: src/en/data/array-libraries.js:4
+msgid "NumPy"
+msgstr ""
+
+#: src/en/data/array-libraries.js:6
+msgid "NumPy is the fundamental package for array computing with Python."
+msgstr ""
+
+#: src/en/data/array-libraries.js:22
+msgid "NumPy-compatible array library for GPU-accelerated computing with Python."
+msgstr ""
+
+#: src/en/data/sponsors.js:10
+msgid "NVIDIA"
+msgstr ""
+
+#: src/en/data/projects.js:90
+msgid "omfit"
+msgstr ""
+
+#: src/en/data/array-libraries.js:44
+msgid "Operate and manipulate physical quantities in Python"
+msgstr ""
+
+#: src/en/data/team-members.js:25
+msgid "Owen Littlejohns"
+msgstr ""
+
+#: src/en/data/team-members.js:25
+msgid "owenlittlejohns"
+msgstr ""
+
+#: src/en/data/projects.js:73
+msgid "Pangeo"
+msgstr ""
+
+#: src/en/data/array-libraries.js:43
+msgid "Pint"
+msgstr ""
+
+#: src/en/data/projects.js:14
+msgid "Python library for processing spatial data and interpolating it on regular grids"
+msgstr ""
+
+#: src/en/data/team-members.js:5
+msgid "rabernat"
+msgstr ""
+
+#: src/en/data/projects.js:48
+msgid "Raster-based Spatial Analytics for Python"
+msgstr ""
+
+#: src/en/data/features.js:33
+msgid "Read and write data to and from NetCDF, HDF, Zarr, OpenDAP, and GRIB."
+msgstr ""
+
+#: src/en/data/footer-items.js:12
+msgid "Roadmap"
+msgstr ""
+
+#: src/en/data/team-members.js:5
+msgid "Ryan Abernathey"
+msgstr ""
+
+#: src/en/data/projects.js:100
+msgid "Scalable statistical genetic data analysis in Python"
+msgstr ""
+
+#: src/en/data/team-members.js:22
+msgid "Scott Henderson"
+msgstr ""
+
+#: src/en/data/team-members.js:22
+msgid "scottyhq"
+msgstr ""
+
+#: src/en/data/features.js:12
+msgid "Select values by label instead of integer location"
+msgstr ""
+
+#: src/en/data/projects.js:99
+msgid "sgkit"
+msgstr ""
+
+#: src/en/data/team-members.js:3
+msgid "shoyer"
+msgstr ""
+
+#: src/en/data/array-libraries.js:36
+msgid "Sparse"
+msgstr ""
+
+#: src/en/data/array-libraries.js:37
+msgid "Sparse multi-dimensional arrays for the PyData ecosystem"
+msgstr ""
+
+#: src/en/data/team-members.js:11
+msgid "Spencer Clark"
+msgstr ""
+
+#: src/en/data/team-members.js:11
+msgid "spencerkclark"
+msgstr ""
+
+#: src/en/data/menu-items.js:6
+msgid "Sponsors"
+msgstr ""
+
+#: src/en/data/projects.js:55
+msgid "SquidPy"
+msgstr ""
+
+#: src/en/data/footer-items.js:45
+msgid "Stack Overflow"
+msgstr ""
+
+#: src/en/data/team-members.js:3
+msgid "Stephan Hoyer"
+msgstr ""
+
+#: src/en/data/footer-items.js:6
+msgid "Team"
+msgstr ""
+
+#: src/en/data/team-members.js:12
+msgid "Tom Nicholas"
+msgstr ""
+
+#: src/en/data/team-members.js:12
+msgid "TomNicholas"
+msgstr ""
+
+#: src/en/data/menu-items.js:4
+msgid "Try"
+msgstr ""
+
+#: src/en/data/footer-items.js:24
+msgid "Tutorials"
+msgstr ""
+
+#: src/en/data/features.js:16
+msgid "Vectorized operations"
+msgstr ""
+
+#: src/en/data/projects.js:12
+msgid "verde"
+msgstr ""
+
+#: src/en/data/projects.js:40
+msgid "Verification of weather and climate forecasts"
+msgstr ""
+
+#: src/en/data/projects.js:47
+msgid "xarray-spatial"
+msgstr ""
+
+#: src/en/data/projects.js:4
+msgid "xgcm"
+msgstr ""
+
+#: src/en/data/projects.js:107
+msgid "xmip"
+msgstr ""
+
+#: src/en/data/array-libraries.js:28
+msgid "Zarr"
+msgstr ""
+
