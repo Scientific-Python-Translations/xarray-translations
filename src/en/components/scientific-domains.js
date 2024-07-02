@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { Box, Button, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 
@@ -10,9 +9,12 @@ export const ScientificDomains = () => {
   const projects = React.useMemo(() => Projects, [])
 
   return (
-    (<Box my={8}>
-      <Text fontSize={'lg'}>{t`This section lists some of the standalone packages, projects developed
-        with xarray.`}</Text>
+    <Box my={8}>
+      <Text fontSize={'lg'}>
+        This section lists some of the standalone packages, projects developed
+        with xarray.
+      </Text>
+
       <SimpleGrid
         my={8}
         columns={{ base: 1, md: 2, lg: 3 }}
@@ -33,6 +35,7 @@ export const ScientificDomains = () => {
             ></ProjectCard>
           ))}
       </SimpleGrid>
+
       <Button
         as={Link}
         useExternalIcon
@@ -42,6 +45,6 @@ export const ScientificDomains = () => {
       >
         See More
       </Button>
-    </Box>)
-  );
+    </Box>
+  )
 }

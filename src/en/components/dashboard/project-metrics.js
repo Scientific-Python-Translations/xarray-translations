@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { DatasetteStatsCard } from '@/components/dashboard/datasette-stats-card'
 import { StatisticsCard } from '@/components/dashboard/statistics-card'
 import { Heading } from '@/components/mdx'
@@ -33,10 +32,12 @@ export const ProjectMetrics = () => {
   const year = dateObj.getFullYear()
 
   return (
-    (<Box as='section' id='metrics'>
+    <Box as='section' id='metrics'>
       <Container maxW='container.lg'>
         {' '}
-        <Heading as='h2' size='xl' textAlign={'center'}>{t`Xarray Project Metrics`}</Heading>
+        <Heading as='h2' size='xl' textAlign={'center'}>
+          Xarray Project Metrics
+        </Heading>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={{ base: 5, lg: 8 }}>
           <StatisticsCard
             title={'Core Maintainers'}
@@ -85,6 +86,6 @@ export const ProjectMetrics = () => {
           />
         </SimpleGrid>
       </Container>
-    </Box>)
-  );
+    </Box>
+  )
 }

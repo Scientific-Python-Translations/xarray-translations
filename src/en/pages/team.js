@@ -1,4 +1,3 @@
-import { t } from "@lingui/macro";
 import { Layout } from '@/components/layout'
 import { Image, Link } from '@/components/mdx'
 import { TeamMember } from '@/components/team-member'
@@ -7,16 +6,22 @@ import { Box, Container, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 
 const Team = () => {
   return (
-    (<Layout title={'Xarray Contributors'}>
+    <Layout title={'Xarray Contributors'}>
       <Box as='section' py={20}>
         <Container maxW='container.lg'>
-          <Heading as='h1' size='2xl' textAlign={'center'}>{t`Team`}</Heading>
+          <Heading as='h1' size='2xl' textAlign={'center'}>
+            Team
+          </Heading>
 
           <Box py={4}>
-            <Heading as='h2' size='xl' textAlign={'center'} my={16}>{t`Current core maintainers 🤝`}</Heading>
-            <Text>{t`Xarray core maintainers are responsible for the ongoing
+            <Heading as='h2' size='xl' textAlign={'center'} my={16}>
+              Current core maintainers 🤝
+            </Heading>
+            <Text>
+              Xarray core maintainers are responsible for the ongoing
               organizational maintenance and technical direction of the Xarray
-              project. The current core team comprises:`}</Text>
+              project. The current core team comprises:
+            </Text>
           </Box>
 
           <SimpleGrid
@@ -29,15 +34,20 @@ const Team = () => {
               <TeamMember key={member.name} member={member} />
             ))}
           </SimpleGrid>
-          <Heading as='h2' size='xl' textAlign={'center'} my={16}>{t`Our valuable contributors 💖`}</Heading>
-          <Text>{t`Xarray is made with love by more than`}{' '}
+          <Heading as='h2' size='xl' textAlign={'center'} my={16}>
+            Our valuable contributors 💖
+          </Heading>
+          <Text>
+            Xarray is made with love by more than{' '}
             <Link
               href={'https://github.com/pydata/xarray/graphs/contributors'}
               useExternalIcon
             >
               370 volunteer contributors
-            </Link>{t`. We appreciate all contributions from community to make Xarray
-            thrive.`}</Text>
+            </Link>
+            . We appreciate all contributions from community to make Xarray
+            thrive.
+          </Text>
           <Box
             as={Link}
             href={'https://github.com/pydata/xarray/graphs/contributors'}
@@ -50,8 +60,8 @@ const Team = () => {
           </Box>
         </Container>
       </Box>
-    </Layout>)
-  );
+    </Layout>
+  )
 }
 
 export default Team

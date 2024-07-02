@@ -1,11 +1,10 @@
-import { t } from "@lingui/macro";
 import { Box, Button, Container, Heading, Stack, Text } from '@chakra-ui/react'
 
 import { Image, Link } from '@/components/mdx'
 
 export const HeroBanner = () => {
   return (
-    (<Box as='section'>
+    <Box as='section'>
       <Container maxW='container.lg' py={24} centerContent>
         <Stack
           align={'center'}
@@ -31,19 +30,26 @@ export const HeroBanner = () => {
                   left: 0,
                   zIndex: -1,
                 }}
-              >{t`Xarray`}</Text>
+              >
+                Xarray
+              </Text>
               <br />
-              <Text as={'span'} color={'red.400'}>{t`N-D labeled arrays and datasets in Python`}</Text>
+              <Text as={'span'} color={'red.400'}>
+                N-D labeled arrays and datasets in Python
+              </Text>
             </Heading>
             <Text fontSize={'lg'}>
-              <strong>Xarray</strong>{t`is an open source project and Python
+              <strong>Xarray</strong> is an open source project and Python
               package that introduces labels in the form of dimensions,
               coordinates, and attributes on top of raw NumPy-like arrays, which
               allows for more intuitive, more concise, and less error-prone user
-              experience.`}<br />
-              <br />{t`Xarray includes a large and growing library of domain-agnostic
+              experience.
+              <br />
+              <br />
+              Xarray includes a large and growing library of domain-agnostic
               functions for advanced analytics and visualization with these data
-              structures.`}</Text>
+              structures.
+            </Text>
           </Stack>
           <Stack flex={1} spacing={{ base: 10, md: 20 }}>
             <Image
@@ -78,6 +84,6 @@ export const HeroBanner = () => {
           </Stack>
         </Stack>
       </Container>
-    </Box>)
-  );
+    </Box>
+  )
 }
