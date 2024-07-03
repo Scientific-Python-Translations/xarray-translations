@@ -41,7 +41,6 @@ jobs:
           npx jscodeshift -t add_lingui_macros_components.js src/en/components/**/*.js src/en/components/*.js
           npx jscodeshift -t add_lingui_macros_components.js src/en/pages/index.js src/en/pages/team.js
           npx jscodeshift -t add_lingui_macros_data.js src/en/data/**/*.js src/en/data/*.js
-          npx lingui extract
           git checkout -b ${{ env.BRANCH_NAME }}
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
@@ -50,6 +49,8 @@ jobs:
             echo "No changes to commit."
             echo "CONTENT_CHANGED=false" >> $GITHUB_ENV
           else
+            npx lingui extract
+            git add .
             git commit -m "Update website content and translations"
             echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
             git push -u origin ${{ env.BRANCH_NAME }}
