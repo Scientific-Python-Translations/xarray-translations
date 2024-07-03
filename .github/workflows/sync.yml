@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Process and extract translations. Commit if source content changed
+      - name: Process content and check for changes
         run: |
           cd xarray-translations
           npm install
@@ -49,12 +49,17 @@ jobs:
             echo "No changes to commit."
             echo "CONTENT_CHANGED=false" >> $GITHUB_ENV
           else
-            npx lingui extract
-            git add .
-            git commit -m "Update website content and translations"
             echo "CONTENT_CHANGED=true" >> $GITHUB_ENV
-            git push -u origin ${{ env.BRANCH_NAME }}
           fi
+
+      - name: Extract .po files and commit
+        if: env.CONTENT_CHANGED == 'true'
+        run: |
+          cd xarray-translations
+          npx lingui extract
+          git add .
+          git commit -m "Update website content and translations"
+          git push -u origin ${{ env.BRANCH_NAME }}
 
       - name: Create Pull Request
         if: env.CONTENT_CHANGED == 'true'
