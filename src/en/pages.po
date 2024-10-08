@@ -6,8 +6,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
-#: src/en/pages/team.js:37
+#: src/en/pages/team.js:43
 msgid ""
 ". We appreciate all contributions from community to make Xarray\n"
 "thrive."
@@ -15,23 +21,23 @@ msgstr ""
 ". We appreciate all contributions from community to make Xarray\n"
 "thrive."
 
-#: src/en/pages/team.js:37
+#: src/en/pages/team.js:43
 msgid "370 volunteer contributors"
 msgstr "370 volunteer contributors"
 
-#: src/en/pages/team.js:16
+#: src/en/pages/team.js:22
 msgid "Current core maintainers 🤝"
 msgstr "Current core maintainers 🤝"
 
-#: src/en/pages/team.js:32
+#: src/en/pages/team.js:38
 msgid "Our valuable contributors 💖"
 msgstr "Our valuable contributors 💖"
 
-#: src/en/pages/team.js:13
+#: src/en/pages/team.js:19
 msgid "Team"
 msgstr "Team"
 
-#: src/en/pages/team.js:17
+#: src/en/pages/team.js:23
 msgid ""
 "Xarray core maintainers are responsible for the ongoing\n"
 "organizational maintenance and technical direction of the Xarray\n"
@@ -41,6 +47,6 @@ msgstr ""
 "organizational maintenance and technical direction of the Xarray\n"
 "project. The current core team comprises:"
 
-#: src/en/pages/team.js:33
+#: src/en/pages/team.js:39
 msgid "Xarray is made with love by more than"
 msgstr "Xarray is made with love by more than"
