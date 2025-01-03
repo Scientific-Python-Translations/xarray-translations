@@ -5,7 +5,7 @@ export const Sponsors = [
   {
     name: t`CZI`,
     logo: t`/Chan_Zuckerberg_Initiative.svg`,
-    url: 'https://chanzuckerberg.com//',
+    url: 'https://chanzuckerberg.com/',
   },
   { name: t`NVIDIA`, logo: t`/Nvidia_logo.svg`, url: 'https://www.nvidia.com/' },
 ]
