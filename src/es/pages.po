@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-10-31 18:59\n"
+"PO-Revision-Date: 2025-01-23 15:45\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -21,19 +21,19 @@ msgstr ""
 #: src/en/pages/team.js:43
 msgid ". We appreciate all contributions from community to make Xarray\n"
 "thrive."
-msgstr ""
+msgstr ". Apreciamos todas las contribuciones de la comunidad para hacer que Xarray siga creciendo."
 
 #: src/en/pages/team.js:43
 msgid "370 volunteer contributors"
-msgstr ""
+msgstr "370 colaboradores voluntarios"
 
 #: src/en/pages/team.js:22
 msgid "Current core maintainers 🤝"
-msgstr ""
+msgstr "Mantenedores principales actuales 🤝"
 
 #: src/en/pages/team.js:38
 msgid "Our valuable contributors 💖"
-msgstr ""
+msgstr "Nuestros valiosos colaboradores 💖"
 
 #: src/en/pages/team.js:19
 msgid "Team"
@@ -43,9 +43,9 @@ msgstr ""
 msgid "Xarray core maintainers are responsible for the ongoing\n"
 "organizational maintenance and technical direction of the Xarray\n"
 "project. The current core team comprises:"
-msgstr ""
+msgstr "Los mantenedores principales de Xarray son responsables del continuo mantenimiento organizacional y la dirección técnica del proyecto. El equipo principal de mantenedores está actualmente compuesto por:"
 
 #: src/en/pages/team.js:39
 msgid "Xarray is made with love by more than"
-msgstr ""
+msgstr "Xarray está hecho con amor por más de"
 
