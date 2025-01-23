@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-23 15:45\n"
+"PO-Revision-Date: 2025-01-23 18:42\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -37,7 +37,7 @@ msgstr "Nuestros valiosos colaboradores 💖"
 
 #: src/en/pages/team.js:19
 msgid "Team"
-msgstr ""
+msgstr "Equipo"
 
 #: src/en/pages/team.js:23
 msgid "Xarray core maintainers are responsible for the ongoing\n"
