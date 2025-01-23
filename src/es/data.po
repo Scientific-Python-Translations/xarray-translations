@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-23 15:45\n"
+"PO-Revision-Date: 2025-01-23 17:34\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -231,113 +231,113 @@ msgstr "Seguimiento de metadatos arbitrarios"
 
 #: src/en/data/projects.js:21
 msgid "arviz"
-msgstr ""
+msgstr "arviz"
 
 #: src/en/data/team-members.js:19
 msgid "Aureliana Barghini"
-msgstr ""
+msgstr "Aureliana Barghini"
 
 #: src/en/data/team-members.js:19
 msgid "aurghs"
-msgstr ""
+msgstr "aurghs"
 
 #: src/en/data/projects.js:23
 msgid "Backend-agnostic tools for diagnostics and visualizations of Bayesian inference in Python"
-msgstr ""
+msgstr "Herramientas independientes del backend para diagnósticos y visualizaciones de inferencia bayesiana en Python"
 
 #: src/en/data/projects.js:24
 msgid "Bayesian Inference"
-msgstr ""
+msgstr "Inferencia Bayesiana"
 
 #: src/en/data/team-members.js:6
 msgid "benbovy"
-msgstr ""
+msgstr "benbovy"
 
 #: src/en/data/team-members.js:6
 msgid "Benôit Bovy"
-msgstr ""
+msgstr "Benôit Bovy"
 
 #: src/en/data/footer-items.js:5
 #: src/en/data/menu-items.js:8
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: src/en/data/footer-items.js:16
 msgid "Brand Assets"
-msgstr ""
+msgstr "Recursos de marca"
 
 #: src/en/data/projects.js:81
 msgid "cf-xarray"
-msgstr ""
+msgstr "cf-xarray"
 
 #: src/en/data/footer-items.js:8
 msgid "Citing Xarray"
-msgstr ""
+msgstr "Citando Xarray"
 
 #: src/en/data/projects.js:39
 msgid "climpred"
-msgstr ""
+msgstr "climpred"
 
 #: src/en/data/projects.js:32
 msgid "Collection of tools for reading, visualizing and performing calculations with weather data"
-msgstr ""
+msgstr "Colección de herramientas para leer, visualizar y realizar cálculos con datos meteorológicos"
 
 #: src/en/data/projects.js:57
 msgid "Collection of tools for the analysis and visualization of spatial molecular data"
-msgstr ""
+msgstr "Colección de herramientas para el análisis y visualización de datos moleculares espaciales"
 
 #: src/en/data/footer-items.js:31
 msgid "Compatible Projects"
-msgstr ""
+msgstr "Proyectos compatibles"
 
 #: src/en/data/footer-items.js:36
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuir"
 
 #: src/en/data/team-members.js:13
 msgid "crusaderky"
-msgstr ""
+msgstr "crusaderky"
 
 #: src/en/data/array-libraries.js:20
 msgid "CuPy"
-msgstr ""
+msgstr "CuPy"
 
 #: src/en/data/sponsors.js:6
 msgid "CZI"
-msgstr ""
+msgstr "CZI"
 
 #: src/en/data/footer-items.js:4
 msgid "Dashboard"
-msgstr ""
+msgstr "Tablero"
 
 #: src/en/data/array-libraries.js:12
 msgid "Dask"
-msgstr ""
+msgstr "Dask"
 
 #: src/en/data/features.js:25
 msgid "Database like alignment based on coordinate labels that smoothly handles missing values."
-msgstr ""
+msgstr "Alineación similar a una base de datos basada en etiquetas de coordenadas para el manejo de forma eficiente de valores faltantes."
 
 #: src/en/data/features.js:24
 msgid "Database like operations"
-msgstr ""
+msgstr "Operaciones similares a bases de datos"
 
 #: src/en/data/team-members.js:10
 msgid "dcherian"
-msgstr ""
+msgstr "dcherian"
 
 #: src/en/data/team-members.js:10
 msgid "Deepak Cherian"
-msgstr ""
+msgstr "Deepak Cherian"
 
 #: src/en/data/array-libraries.js:14
 msgid "Distributed arrays and advanced parallelism for analytics, enabling performance at scale."
-msgstr ""
+msgstr "Arreglos distribuidos y paralelismo avanzado para el análisis, lo que permite un rendimiento escalable."
 
 #: src/en/data/footer-items.js:22
 #: src/en/data/menu-items.js:9
 msgid "Documentation"
-msgstr ""
+msgstr "Documentación"
 
 #: src/en/data/menu-items.js:7
 msgid "Donate"
@@ -349,67 +349,67 @@ msgstr "Ecosistema"
 
 #: src/en/data/team-members.js:26
 msgid "Eni Awowale"
-msgstr ""
+msgstr "Eni Awowale"
 
 #: src/en/data/team-members.js:26
 msgid "eni-awowale"
-msgstr ""
+msgstr "eni-awowale"
 
 #: src/en/data/footer-items.js:28
 msgid "Example Gallery"
-msgstr ""
+msgstr "Galería de ejemplos"
 
 #: src/en/data/team-members.js:7
 msgid "Fabien Maussion"
-msgstr ""
+msgstr "Fabien Maussion"
 
 #: src/en/data/menu-items.js:3
 msgid "Features"
-msgstr ""
+msgstr "Funcionalidades"
 
 #: src/en/data/team-members.js:24
 msgid "flamingbear"
-msgstr ""
+msgstr "flamingbear"
 
 #: src/en/data/features.js:32
 msgid "Flexible and Extensible I/O backend API"
-msgstr ""
+msgstr "API de Entrada y Salida del backend flexible y extensible"
 
 #: src/en/data/features.js:21
 msgid "Flexible split-apply-combine operations with groupby."
-msgstr ""
+msgstr "Operaciones flexibles de división, aplicación y combinación mediante Agrupado Por."
 
 #: src/en/data/team-members.js:7
 msgid "fmaussion"
-msgstr ""
+msgstr "fmaussion"
 
 #: src/en/data/team-members.js:8
 msgid "fujiisoup"
-msgstr ""
+msgstr "fujiisoup"
 
 #: src/en/data/projects.js:5
 msgid "General Circulation Model Postprocessing with xarray"
-msgstr ""
+msgstr "Postprocesamiento del modelos de circulación global con Xarray"
 
 #: src/en/data/footer-items.js:40
 msgid "GitHub Discussions"
-msgstr ""
+msgstr "Discusiones de GitHub"
 
 #: src/en/data/features.js:20
 msgid "GroupBy operations"
-msgstr ""
+msgstr "Operaciones de Agrupado Por"
 
 #: src/en/data/team-members.js:13
 msgid "Guido Imperiale"
-msgstr ""
+msgstr "Guido Imperiale"
 
 #: src/en/data/team-members.js:20
 msgid "headtr1ck"
-msgstr ""
+msgstr "headtr1ck"
 
 #: src/en/data/projects.js:64
 msgid "hvPlot"
-msgstr ""
+msgstr "hvPlot"
 
 #: src/en/data/team-members.js:17
 msgid "Illviljan"
@@ -417,27 +417,27 @@ msgstr ""
 
 #: src/en/data/projects.js:92
 msgid "Integrated modeling and experimental data analysis software for magnetically confined thermonuclear fusion experiments"
-msgstr ""
+msgstr "Software integrado de modelado y análisis de datos experimentales para experimentos de fusión termonuclear confinados magnéticamente"
 
 #: src/en/data/features.js:4
 msgid "Interoperability"
-msgstr ""
+msgstr "Interoperabilidad"
 
 #: src/en/data/features.js:5
 msgid "Interoperable with the scientific Python ecosystem including NumPy, Dask, Pandas, and Matplotlib."
-msgstr ""
+msgstr "Interoperabilidad con el ecosistema científico de Python, incluyendo NumPy, Dask, Pandas y Matplotlib."
 
 #: src/en/data/footer-items.js:43
 msgid "Issue Tracker"
-msgstr ""
+msgstr "Listado de reportes"
 
 #: src/en/data/team-members.js:23
 msgid "Jessica Scheick"
-msgstr ""
+msgstr "Jessica Scheick"
 
 #: src/en/data/team-members.js:23
 msgid "JessicaS11"
-msgstr ""
+msgstr "JessicaS11"
 
 #: src/en/data/team-members.js:4
 msgid "jhamman"
