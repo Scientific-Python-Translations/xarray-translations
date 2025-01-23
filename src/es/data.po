@@ -8,7 +8,7 @@ msgstr ""
 "Language: es\n"
 "Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-01-23 17:34\n"
+"PO-Revision-Date: 2025-01-23 18:42\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -413,7 +413,7 @@ msgstr "hvPlot"
 
 #: src/en/data/team-members.js:17
 msgid "Illviljan"
-msgstr ""
+msgstr "Illviljan"
 
 #: src/en/data/projects.js:92
 msgid "Integrated modeling and experimental data analysis software for magnetically confined thermonuclear fusion experiments"
@@ -441,131 +441,131 @@ msgstr "JessicaS11"
 
 #: src/en/data/team-members.js:4
 msgid "jhamman"
-msgstr ""
+msgstr "jhamman"
 
 #: src/en/data/team-members.js:17
 msgid "Jimmy Westling"
-msgstr ""
+msgstr "Jimmy Westling"
 
 #: src/en/data/team-members.js:4
 msgid "Joe Hamman"
-msgstr ""
+msgstr "Joe Hamman"
 
 #: src/en/data/team-members.js:14
 msgid "Justus Magin"
-msgstr ""
+msgstr "Justus Magin"
 
 #: src/en/data/team-members.js:21
 msgid "Kai Mühlbauer"
-msgstr ""
+msgstr "Kai Mühlbauer"
 
 #: src/en/data/features.js:29
 msgid "Keep track of arbitrary metadata in the form of a Python dictionary."
-msgstr ""
+msgstr "Realice un seguimiento de metadatos arbitrarios utilizando un diccionario de Python."
 
 #: src/en/data/team-members.js:14
 msgid "keewis"
-msgstr ""
+msgstr "keewis"
 
 #: src/en/data/team-members.js:8
 msgid "Keisuke Fujii"
-msgstr ""
+msgstr "Keisuke Fujii"
 
 #: src/en/data/team-members.js:21
 msgid "kmuehlbauer"
-msgstr ""
+msgstr "kmuehlbauer"
 
 #: src/en/data/footer-items.js:49
 msgid "Mailing List"
-msgstr ""
+msgstr "Lista de correos"
 
 #: src/en/data/team-members.js:15
 msgid "mathause"
-msgstr ""
+msgstr "mathause"
 
 #: src/en/data/features.js:17
 msgid "Mathematical operations vectorize across multiple dimensions (array broadcasting) based on dimension names, not shape."
-msgstr ""
+msgstr "Las operaciones matemáticas se vectorizan en múltiples dimensiones en función de los nombres de las dimensiones, no de la forma."
 
 #: src/en/data/team-members.js:15
 msgid "Mathias Hauser"
-msgstr ""
+msgstr "Mathias Hauser"
 
 #: src/en/data/team-members.js:24
 msgid "Matt Savoie"
-msgstr ""
+msgstr "Matt Savoie"
 
 #: src/en/data/team-members.js:9
 msgid "max-sixty"
-msgstr ""
+msgstr "max-sixty"
 
 #: src/en/data/team-members.js:9
 msgid "Maximilian Roos"
-msgstr ""
+msgstr "Maximilian Roos"
 
 #: src/en/data/projects.js:30
 msgid "MetPy"
-msgstr ""
+msgstr "MetPy"
 
 #: src/en/data/team-members.js:20
 msgid "Mick Niklas"
-msgstr ""
+msgstr "Mick Niklas"
 
 #: src/en/data/sponsors.js:4
 msgid "NASA"
-msgstr ""
+msgstr "NASA"
 
 #: src/en/data/sponsors.js:3
 msgid "NSF"
-msgstr ""
+msgstr "NSF"
 
 #: src/en/data/array-libraries.js:4
 msgid "NumPy"
-msgstr ""
+msgstr "NSF"
 
 #: src/en/data/array-libraries.js:6
 msgid "NumPy is the fundamental package for array computing with Python."
-msgstr ""
+msgstr "NumPy es el paquete fundamental para la computación de matrices/arreglos con Python."
 
 #: src/en/data/array-libraries.js:22
 msgid "NumPy-compatible array library for GPU-accelerated computing with Python."
-msgstr ""
+msgstr "Biblioteca de matrices/arreglos compatible con NumPy para computación acelerada por GPU con Python."
 
 #: src/en/data/sponsors.js:10
 msgid "NVIDIA"
-msgstr ""
+msgstr "NVIDIA"
 
 #: src/en/data/projects.js:90
 msgid "omfit"
-msgstr ""
+msgstr "omfit"
 
 #: src/en/data/array-libraries.js:44
 msgid "Operate and manipulate physical quantities in Python"
-msgstr ""
+msgstr "Opere y manipule cantidades físicas en Python."
 
 #: src/en/data/team-members.js:25
 msgid "Owen Littlejohns"
-msgstr ""
+msgstr "Owen Littlejohns"
 
 #: src/en/data/team-members.js:25
 msgid "owenlittlejohns"
-msgstr ""
+msgstr "owenlittlejohns"
 
 #: src/en/data/projects.js:73
 msgid "Pangeo"
-msgstr ""
+msgstr "Pangeo"
 
 #: src/en/data/array-libraries.js:43
 msgid "Pint"
-msgstr ""
+msgstr "Pint"
 
 #: src/en/data/projects.js:14
 msgid "Python library for processing spatial data and interpolating it on regular grids"
-msgstr ""
+msgstr "Biblioteca Python para procesar datos espaciales e interpolarlos en cuadrículas regulares"
 
 #: src/en/data/team-members.js:5
 msgid "rabernat"
-msgstr ""
+msgstr "rabernat"
 
 #: src/en/data/projects.js:48
 msgid "Raster-based Spatial Analytics for Python"
@@ -573,117 +573,117 @@ msgstr ""
 
 #: src/en/data/features.js:33
 msgid "Read and write data to and from NetCDF, HDF, Zarr, OpenDAP, and GRIB."
-msgstr ""
+msgstr "Lea y escriba datos desde y hacia NetCDF, HDF, Zarr, OpenDAP y GRIB."
 
 #: src/en/data/footer-items.js:12
 msgid "Roadmap"
-msgstr ""
+msgstr "Plan de trabajo"
 
 #: src/en/data/team-members.js:5
 msgid "Ryan Abernathey"
-msgstr ""
+msgstr "Ryan Abernathey"
 
 #: src/en/data/projects.js:100
 msgid "Scalable statistical genetic data analysis in Python"
-msgstr ""
+msgstr "Análisis estadísticos escalables de datos genéticos en Python"
 
 #: src/en/data/team-members.js:22
 msgid "Scott Henderson"
-msgstr ""
+msgstr "Scott Henderson"
 
 #: src/en/data/team-members.js:22
 msgid "scottyhq"
-msgstr ""
+msgstr "scottyhq"
 
 #: src/en/data/features.js:12
 msgid "Select values by label instead of integer location"
-msgstr ""
+msgstr "Seleccione valores por etiqueta en lugar de ubicación entera"
 
 #: src/en/data/projects.js:99
 msgid "sgkit"
-msgstr ""
+msgstr "sgkit"
 
 #: src/en/data/team-members.js:3
 msgid "shoyer"
-msgstr ""
+msgstr "shoyer"
 
 #: src/en/data/array-libraries.js:36
 msgid "Sparse"
-msgstr ""
+msgstr "Sparse"
 
 #: src/en/data/array-libraries.js:37
 msgid "Sparse multi-dimensional arrays for the PyData ecosystem"
-msgstr ""
+msgstr "Arreglos multidimensionales dispersos para el ecosistema PyData"
 
 #: src/en/data/team-members.js:11
 msgid "Spencer Clark"
-msgstr ""
+msgstr "Spencer Clark"
 
 #: src/en/data/team-members.js:11
 msgid "spencerkclark"
-msgstr ""
+msgstr "spencerkclark"
 
 #: src/en/data/menu-items.js:6
 msgid "Sponsors"
-msgstr ""
+msgstr "Patrocinadores"
 
 #: src/en/data/projects.js:55
 msgid "SquidPy"
-msgstr ""
+msgstr "SquidPy"
 
 #: src/en/data/footer-items.js:45
 msgid "Stack Overflow"
-msgstr ""
+msgstr "Stack Overflow"
 
 #: src/en/data/team-members.js:3
 msgid "Stephan Hoyer"
-msgstr ""
+msgstr "Stephan Hoyer"
 
 #: src/en/data/footer-items.js:6
 msgid "Team"
-msgstr ""
+msgstr "Equipo"
 
 #: src/en/data/team-members.js:12
 msgid "Tom Nicholas"
-msgstr ""
+msgstr "Tom Nicholas"
 
 #: src/en/data/team-members.js:12
 msgid "TomNicholas"
-msgstr ""
+msgstr "TomNicholas"
 
 #: src/en/data/menu-items.js:4
 msgid "Try"
-msgstr ""
+msgstr "Pruebe"
 
 #: src/en/data/footer-items.js:24
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutoriales"
 
 #: src/en/data/features.js:16
 msgid "Vectorized operations"
-msgstr ""
+msgstr "Operaciones vectorizadas"
 
 #: src/en/data/projects.js:12
 msgid "verde"
-msgstr ""
+msgstr "verde"
 
 #: src/en/data/projects.js:40
 msgid "Verification of weather and climate forecasts"
-msgstr ""
+msgstr "Verificación de predicciones meteorológicas y climáticas."
 
 #: src/en/data/projects.js:47
 msgid "xarray-spatial"
-msgstr ""
+msgstr "xarray-spatial"
 
 #: src/en/data/projects.js:4
 msgid "xgcm"
-msgstr ""
+msgstr "xgcm"
 
 #: src/en/data/projects.js:107
 msgid "xmip"
-msgstr ""
+msgstr "xmip"
 
 #: src/en/data/array-libraries.js:28
 msgid "Zarr"
-msgstr ""
+msgstr "Zarr"
 
