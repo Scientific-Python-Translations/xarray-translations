@@ -8,7 +8,7 @@ msgstr ""
 "Language: pt\n"
 "Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-10-31 19:00\n"
+"PO-Revision-Date: 2025-02-07 15:19\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -26,180 +26,180 @@ msgstr ""
 
 #: src/en/data/menu-items.js:7
 msgid "/#donate"
-msgstr ""
+msgstr "/#donate"
 
 #: src/en/data/menu-items.js:5
 msgid "/#ecosystem"
-msgstr ""
+msgstr "/#ecosystem"
 
 #: src/en/data/menu-items.js:3
 msgid "/#features"
-msgstr ""
+msgstr "/#features"
 
 #: src/en/data/menu-items.js:4
 msgid "/#repl"
-msgstr ""
+msgstr "/#repl"
 
 #: src/en/data/menu-items.js:6
 msgid "/#sponsors"
-msgstr ""
+msgstr "/#sponsors"
 
 #: src/en/data/footer-items.js:5
 #: src/en/data/menu-items.js:8
 msgid "/blog"
-msgstr ""
+msgstr "/blog"
 
 #: src/en/data/sponsors.js:7
 msgid "/Chan_Zuckerberg_Initiative.svg"
-msgstr ""
+msgstr "/Chan_Zuckerberg_Initiative.svg"
 
 #: src/en/data/footer-items.js:4
 msgid "/dashboard"
-msgstr ""
+msgstr "/dashboard"
 
 #: src/en/data/array-libraries.js:25
 msgid "/libraries/cupy_logo_1000px.png"
-msgstr ""
+msgstr "/libraries/cupy_logo_1000px.png"
 
 #: src/en/data/array-libraries.js:17
 msgid "/libraries/dask_horizontal.svg"
-msgstr ""
+msgstr "/libraries/dask_horizontal.svg"
 
 #: src/en/data/array-libraries.js:9
 msgid "/libraries/numpy_logo.svg"
-msgstr ""
+msgstr "/libraries/numpy_logo.svg"
 
 #: src/en/data/array-libraries.js:47
 msgid "/libraries/pint-logo-full.jpg"
-msgstr ""
+msgstr "/libraries/pint-logo-full.jpg"
 
 #: src/en/data/array-libraries.js:40
 msgid "/libraries/sparse-logo.png"
-msgstr ""
+msgstr "/libraries/sparse-logo.png"
 
 #: src/en/data/array-libraries.js:33
 msgid "/libraries/zarr-pink-stacked.svg"
-msgstr ""
+msgstr "/libraries/zarr-pink-stacked.svg"
 
 #: src/en/data/sponsors.js:4
 msgid "/NASA_logo.svg"
-msgstr ""
+msgstr "/NASA_logo.svg"
 
 #: src/en/data/sponsors.js:3
 msgid "/NSF.svg"
-msgstr ""
+msgstr "/NSF.svg"
 
 #: src/en/data/sponsors.js:10
 msgid "/Nvidia_logo.svg"
-msgstr ""
+msgstr "/Nvidia_logo.svg"
 
 #: src/en/data/projects.js:27
 msgid "/projects/ArviZ.svg"
-msgstr ""
+msgstr "/projects/ArviZ.svg"
 
 #: src/en/data/projects.js:87
 msgid "/projects/cf-xarray-logo.svg"
-msgstr ""
+msgstr "/projects/cf-xarray-logo.svg"
 
 #: src/en/data/projects.js:44
 msgid "/projects/climpred-logo.png"
-msgstr ""
+msgstr "/projects/climpred-logo.png"
 
 #: src/en/data/projects.js:70
 msgid "/projects/hvplot-logo_horizontal.svg"
-msgstr ""
+msgstr "/projects/hvplot-logo_horizontal.svg"
 
 #: src/en/data/projects.js:36
 msgid "/projects/metpy_horizontal.png"
-msgstr ""
+msgstr "/projects/metpy_horizontal.png"
 
 #: src/en/data/projects.js:96
 msgid "/projects/OMFIT_logo.png"
-msgstr ""
+msgstr "/projects/OMFIT_logo.png"
 
 #: src/en/data/projects.js:78
 msgid "/projects/pangeo_simple_logo.svg"
-msgstr ""
+msgstr "/projects/pangeo_simple_logo.svg"
 
 #: src/en/data/projects.js:104
 msgid "/projects/sgkit_trnsprnt.png"
-msgstr ""
+msgstr "/projects/sgkit_trnsprnt.png"
 
 #: src/en/data/projects.js:61
 msgid "/projects/squidpy_horizontal.png"
-msgstr ""
+msgstr "/projects/squidpy_horizontal.png"
 
 #: src/en/data/projects.js:18
 msgid "/projects/verde-logo.svg"
-msgstr ""
+msgstr "/projects/verde-logo.svg"
 
 #: src/en/data/projects.js:52
 msgid "/projects/Xarray-Spatial-logo.svg"
-msgstr ""
+msgstr "/projects/Xarray-Spatial-logo.svg"
 
 #: src/en/data/projects.js:9
 msgid "/projects/xgcm-logo.png"
-msgstr ""
+msgstr "/projects/xgcm-logo.png"
 
 #: src/en/data/projects.js:113
 msgid "/projects/xmip.png"
-msgstr ""
+msgstr "/projects/xmip.png"
 
 #: src/en/data/footer-items.js:6
 msgid "/team"
-msgstr ""
+msgstr "/team"
 
 #: src/en/data/projects.js:6
 msgid "🌊 Oceanography"
-msgstr ""
+msgstr "🌊 Oceanografia"
 
 #: src/en/data/projects.js:41
 #: src/en/data/projects.js:75
 #: src/en/data/projects.js:84
 #: src/en/data/projects.js:110
 msgid "🌎 Geoscience"
-msgstr ""
+msgstr "🌎 Geociência"
 
 #: src/en/data/projects.js:33
 msgid "🌪🌡 Meteorology"
-msgstr ""
+msgstr "🌪🌡 Meteorologia"
 
 #: src/en/data/projects.js:58
 msgid "💊 Bioinformatics"
-msgstr ""
+msgstr "💊 Bioinformática"
 
 #: src/en/data/projects.js:93
 msgid "💥 plasma physics"
-msgstr ""
+msgstr "💥 Física de plasma"
 
 #: src/en/data/projects.js:67
 msgid "📊 Visualization"
-msgstr ""
+msgstr "📊 Visualização"
 
 #: src/en/data/projects.js:15
 #: src/en/data/projects.js:49
 msgid "🗺️ Geographic Processing"
-msgstr ""
+msgstr "🗺️ Processamento Geográfico"
 
 #: src/en/data/projects.js:101
 msgid "🧬 genomics"
-msgstr ""
+msgstr "🧬 genômica"
 
 #: src/en/data/projects.js:74
 msgid "A community platform for Big Data geoscience"
-msgstr ""
+msgstr "Uma plataforma da comunidade para Big Data em geociência"
 
 #: src/en/data/projects.js:66
 msgid "A high-level plotting API for the PyData ecosystem built on HoloViews"
-msgstr ""
+msgstr "Uma API de alto nível para o ecossistema PyData construído a partir de HoloViews"
 
 #: src/en/data/team-members.js:18
 msgid "Alessandro Amici"
-msgstr ""
+msgstr "Alessandro Amici"
 
 #: src/en/data/team-members.js:18
 msgid "alexamici"
-msgstr ""
+msgstr "alexamici"
 
 #: src/en/data/projects.js:83
 msgid "An accessor for Xarray objects that interprets  Climate and Forecast (CF) metadata convention attributes"
