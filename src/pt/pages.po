@@ -8,7 +8,7 @@ msgstr ""
 "Language: pt\n"
 "Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2024-10-31 19:00\n"
+"PO-Revision-Date: 2025-02-07 14:23\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -21,19 +21,20 @@ msgstr ""
 #: src/en/pages/team.js:43
 msgid ". We appreciate all contributions from community to make Xarray\n"
 "thrive."
-msgstr ""
+msgstr ". Agradecemos todas as contribuições da comunidade para fazer o Xarray\n"
+"prosperar."
 
 #: src/en/pages/team.js:43
 msgid "370 volunteer contributors"
-msgstr ""
+msgstr "370 contribuidores voluntários"
 
 #: src/en/pages/team.js:22
 msgid "Current core maintainers 🤝"
-msgstr ""
+msgstr "Mantenedores atuais 🤝"
 
 #: src/en/pages/team.js:38
 msgid "Our valuable contributors 💖"
-msgstr ""
+msgstr "Nossos contribuidores valiosos 💖"
 
 #: src/en/pages/team.js:19
 msgid "Team"
