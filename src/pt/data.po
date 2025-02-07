@@ -8,7 +8,7 @@ msgstr ""
 "Language: pt\n"
 "Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-02-07 15:19\n"
+"PO-Revision-Date: 2025-02-07 16:19\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -203,487 +203,487 @@ msgstr "alexamici"
 
 #: src/en/data/projects.js:83
 msgid "An accessor for Xarray objects that interprets  Climate and Forecast (CF) metadata convention attributes"
-msgstr ""
+msgstr "Um acessador para objetos Xarray que interpreta os atributos da convenção de metadados sobre Clima e Previsão (CF)"
 
 #: src/en/data/array-libraries.js:30
 msgid "An implementation of chunked, compressed, N-dimensional arrays for Python."
-msgstr ""
+msgstr "Uma implementação de matrizes N-dimensionais fatiadas e compactadas para Python."
 
 #: src/en/data/projects.js:109
 msgid "Analysis ready CMIP6 data in Python the easy way with pangeo tools."
-msgstr ""
+msgstr "Dados CMIP6 em Python prontos para análise fácil com ferramentas pangeo."
 
 #: src/en/data/team-members.js:16
 msgid "Anderson Banihirwe"
-msgstr ""
+msgstr "Anderson Banihirwe"
 
 #: src/en/data/team-members.js:16
 msgid "andersy005"
-msgstr ""
+msgstr "andersy005"
 
 #: src/en/data/features.js:8
 msgid "Apply operations over named dimensions"
-msgstr ""
+msgstr "Aplicar operações sobre dimensões nomeadas"
 
 #: src/en/data/features.js:28
 msgid "Arbitrary metadata tracking"
-msgstr ""
+msgstr "Rastreamento de metadados arbitrários"
 
 #: src/en/data/projects.js:21
 msgid "arviz"
-msgstr ""
+msgstr "arviz"
 
 #: src/en/data/team-members.js:19
 msgid "Aureliana Barghini"
-msgstr ""
+msgstr "Aureliana Barghini"
 
 #: src/en/data/team-members.js:19
 msgid "aurghs"
-msgstr ""
+msgstr "aurghs"
 
 #: src/en/data/projects.js:23
 msgid "Backend-agnostic tools for diagnostics and visualizations of Bayesian inference in Python"
-msgstr ""
+msgstr "Ferramentas agnósticas de back-end para diagnósticos e visualizações de inferência Bayesiana em Python"
 
 #: src/en/data/projects.js:24
 msgid "Bayesian Inference"
-msgstr ""
+msgstr "Inferência Bayesiana"
 
 #: src/en/data/team-members.js:6
 msgid "benbovy"
-msgstr ""
+msgstr "benbovy"
 
 #: src/en/data/team-members.js:6
 msgid "Benôit Bovy"
-msgstr ""
+msgstr "Benôit Bovy"
 
 #: src/en/data/footer-items.js:5
 #: src/en/data/menu-items.js:8
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: src/en/data/footer-items.js:16
 msgid "Brand Assets"
-msgstr ""
+msgstr "Material de Marketing"
 
 #: src/en/data/projects.js:81
 msgid "cf-xarray"
-msgstr ""
+msgstr "cf-xarray"
 
 #: src/en/data/footer-items.js:8
 msgid "Citing Xarray"
-msgstr ""
+msgstr "Citando Xarray"
 
 #: src/en/data/projects.js:39
 msgid "climpred"
-msgstr ""
+msgstr "climpred"
 
 #: src/en/data/projects.js:32
 msgid "Collection of tools for reading, visualizing and performing calculations with weather data"
-msgstr ""
+msgstr "Coleção de ferramentas para leitura, visualização e execução de cálculos com dados meteorológicos"
 
 #: src/en/data/projects.js:57
 msgid "Collection of tools for the analysis and visualization of spatial molecular data"
-msgstr ""
+msgstr "Coleção de ferramentas para a análise e visualização de dados moleculares espaciais"
 
 #: src/en/data/footer-items.js:31
 msgid "Compatible Projects"
-msgstr ""
+msgstr "Projetos compatíveis"
 
 #: src/en/data/footer-items.js:36
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuir"
 
 #: src/en/data/team-members.js:13
 msgid "crusaderky"
-msgstr ""
+msgstr "crusaderky"
 
 #: src/en/data/array-libraries.js:20
 msgid "CuPy"
-msgstr ""
+msgstr "CuPy"
 
 #: src/en/data/sponsors.js:6
 msgid "CZI"
-msgstr ""
+msgstr "CZI"
 
 #: src/en/data/footer-items.js:4
 msgid "Dashboard"
-msgstr ""
+msgstr "Painel de controle"
 
 #: src/en/data/array-libraries.js:12
 msgid "Dask"
-msgstr ""
+msgstr "Dask"
 
 #: src/en/data/features.js:25
 msgid "Database like alignment based on coordinate labels that smoothly handles missing values."
-msgstr ""
+msgstr "Alinhamento tipo banco de dados baseado em rótulos de coordenadas que lidam de maneira fácil com valores faltantes."
 
 #: src/en/data/features.js:24
 msgid "Database like operations"
-msgstr ""
+msgstr "Operações do tipo banco de dados"
 
 #: src/en/data/team-members.js:10
 msgid "dcherian"
-msgstr ""
+msgstr "dcherian"
 
 #: src/en/data/team-members.js:10
 msgid "Deepak Cherian"
-msgstr ""
+msgstr "Deepak Cherian"
 
 #: src/en/data/array-libraries.js:14
 msgid "Distributed arrays and advanced parallelism for analytics, enabling performance at scale."
-msgstr ""
+msgstr "Arrays distribuídas e paralelismo avançado para análises, permitindo desempenho em escala."
 
 #: src/en/data/footer-items.js:22
 #: src/en/data/menu-items.js:9
 msgid "Documentation"
-msgstr ""
+msgstr "Documentação"
 
 #: src/en/data/menu-items.js:7
 msgid "Donate"
-msgstr ""
+msgstr "Fazer uma doação"
 
 #: src/en/data/menu-items.js:5
 msgid "Ecosystem"
-msgstr ""
+msgstr "Ecossistema"
 
 #: src/en/data/team-members.js:26
 msgid "Eni Awowale"
-msgstr ""
+msgstr "Eni Awowale"
 
 #: src/en/data/team-members.js:26
 msgid "eni-awowale"
-msgstr ""
+msgstr "eni-awowale"
 
 #: src/en/data/footer-items.js:28
 msgid "Example Gallery"
-msgstr ""
+msgstr "Galeria de exemplos"
 
 #: src/en/data/team-members.js:7
 msgid "Fabien Maussion"
-msgstr ""
+msgstr "Fabien Maussion"
 
 #: src/en/data/menu-items.js:3
 msgid "Features"
-msgstr ""
+msgstr "Funcionalidades"
 
 #: src/en/data/team-members.js:24
 msgid "flamingbear"
-msgstr ""
+msgstr "flamingbear"
 
 #: src/en/data/features.js:32
 msgid "Flexible and Extensible I/O backend API"
-msgstr ""
+msgstr "API de backend I/O flexível e extensível"
 
 #: src/en/data/features.js:21
 msgid "Flexible split-apply-combine operations with groupby."
-msgstr ""
+msgstr "Operações flexíveis de combinação-aplicação com groupby."
 
 #: src/en/data/team-members.js:7
 msgid "fmaussion"
-msgstr ""
+msgstr "fmaussion"
 
 #: src/en/data/team-members.js:8
 msgid "fujiisoup"
-msgstr ""
+msgstr "fujiisoup"
 
 #: src/en/data/projects.js:5
 msgid "General Circulation Model Postprocessing with xarray"
-msgstr ""
+msgstr "Pós-processamento de modelo geral de circulação com xarray"
 
 #: src/en/data/footer-items.js:40
 msgid "GitHub Discussions"
-msgstr ""
+msgstr "Discussões no GitHub"
 
 #: src/en/data/features.js:20
 msgid "GroupBy operations"
-msgstr ""
+msgstr "Operações GroupBy"
 
 #: src/en/data/team-members.js:13
 msgid "Guido Imperiale"
-msgstr ""
+msgstr "Guido Imperiale"
 
 #: src/en/data/team-members.js:20
 msgid "headtr1ck"
-msgstr ""
+msgstr "headtr1ck"
 
 #: src/en/data/projects.js:64
 msgid "hvPlot"
-msgstr ""
+msgstr "hvPlot"
 
 #: src/en/data/team-members.js:17
 msgid "Illviljan"
-msgstr ""
+msgstr "Illviljan"
 
 #: src/en/data/projects.js:92
 msgid "Integrated modeling and experimental data analysis software for magnetically confined thermonuclear fusion experiments"
-msgstr ""
+msgstr "Software integrado para modelagem e análise de dados experimentais para experimentos de fusão termonuclear confinados magneticamente"
 
 #: src/en/data/features.js:4
 msgid "Interoperability"
-msgstr ""
+msgstr "Interoperabilidade"
 
 #: src/en/data/features.js:5
 msgid "Interoperable with the scientific Python ecosystem including NumPy, Dask, Pandas, and Matplotlib."
-msgstr ""
+msgstr "Interoperável com o ecossistema científico de Python, incluindo NumPy, Dask, Pandas e Matplotlib."
 
 #: src/en/data/footer-items.js:43
 msgid "Issue Tracker"
-msgstr ""
+msgstr "Rastreador de Problemas"
 
 #: src/en/data/team-members.js:23
 msgid "Jessica Scheick"
-msgstr ""
+msgstr "Jessica Scheick"
 
 #: src/en/data/team-members.js:23
 msgid "JessicaS11"
-msgstr ""
+msgstr "JessicaS11"
 
 #: src/en/data/team-members.js:4
 msgid "jhamman"
-msgstr ""
+msgstr "jhamman"
 
 #: src/en/data/team-members.js:17
 msgid "Jimmy Westling"
-msgstr ""
+msgstr "Jimmy Westling"
 
 #: src/en/data/team-members.js:4
 msgid "Joe Hamman"
-msgstr ""
+msgstr "Joe Hamman"
 
 #: src/en/data/team-members.js:14
 msgid "Justus Magin"
-msgstr ""
+msgstr "Justus Magin"
 
 #: src/en/data/team-members.js:21
 msgid "Kai Mühlbauer"
-msgstr ""
+msgstr "Kai Mühlbauer"
 
 #: src/en/data/features.js:29
 msgid "Keep track of arbitrary metadata in the form of a Python dictionary."
-msgstr ""
+msgstr "Acompanhe metadados arbitrários na forma de um dicionário Python."
 
 #: src/en/data/team-members.js:14
 msgid "keewis"
-msgstr ""
+msgstr "keewis"
 
 #: src/en/data/team-members.js:8
 msgid "Keisuke Fujii"
-msgstr ""
+msgstr "Keisuke Fujii"
 
 #: src/en/data/team-members.js:21
 msgid "kmuehlbauer"
-msgstr ""
+msgstr "kmuehlbauer"
 
 #: src/en/data/footer-items.js:49
 msgid "Mailing List"
-msgstr ""
+msgstr "Lista de Emails"
 
 #: src/en/data/team-members.js:15
 msgid "mathause"
-msgstr ""
+msgstr "mathause"
 
 #: src/en/data/features.js:17
 msgid "Mathematical operations vectorize across multiple dimensions (array broadcasting) based on dimension names, not shape."
-msgstr ""
+msgstr "Operações matemáticas são vetorizadas em várias dimensões (broadcasting de matrizes) com base em nomes de dimensão, não no formato da matriz."
 
 #: src/en/data/team-members.js:15
 msgid "Mathias Hauser"
-msgstr ""
+msgstr "Mathias Hauser"
 
 #: src/en/data/team-members.js:24
 msgid "Matt Savoie"
-msgstr ""
+msgstr "Matt Savoie"
 
 #: src/en/data/team-members.js:9
 msgid "max-sixty"
-msgstr ""
+msgstr "max-sixty"
 
 #: src/en/data/team-members.js:9
 msgid "Maximilian Roos"
-msgstr ""
+msgstr "Maximilian Roos"
 
 #: src/en/data/projects.js:30
 msgid "MetPy"
-msgstr ""
+msgstr "MetPy"
 
 #: src/en/data/team-members.js:20
 msgid "Mick Niklas"
-msgstr ""
+msgstr "Mick Niklas"
 
 #: src/en/data/sponsors.js:4
 msgid "NASA"
-msgstr ""
+msgstr "NASA"
 
 #: src/en/data/sponsors.js:3
 msgid "NSF"
-msgstr ""
+msgstr "NSF"
 
 #: src/en/data/array-libraries.js:4
 msgid "NumPy"
-msgstr ""
+msgstr "NumPy"
 
 #: src/en/data/array-libraries.js:6
 msgid "NumPy is the fundamental package for array computing with Python."
-msgstr ""
+msgstr "NumPy é o pacote fundamental para a computação de matrizes com Python."
 
 #: src/en/data/array-libraries.js:22
 msgid "NumPy-compatible array library for GPU-accelerated computing with Python."
-msgstr ""
+msgstr "Biblioteca de matrizes compatível com NumPy para computação acelerada pela GPU com Python."
 
 #: src/en/data/sponsors.js:10
 msgid "NVIDIA"
-msgstr ""
+msgstr "NVIDIA"
 
 #: src/en/data/projects.js:90
 msgid "omfit"
-msgstr ""
+msgstr "omfit"
 
 #: src/en/data/array-libraries.js:44
 msgid "Operate and manipulate physical quantities in Python"
-msgstr ""
+msgstr "Opere e manipule quantidades físicas em Python"
 
 #: src/en/data/team-members.js:25
 msgid "Owen Littlejohns"
-msgstr ""
+msgstr "Owen Littlejohns"
 
 #: src/en/data/team-members.js:25
 msgid "owenlittlejohns"
-msgstr ""
+msgstr "owenlittlejohns"
 
 #: src/en/data/projects.js:73
 msgid "Pangeo"
-msgstr ""
+msgstr "Pangeo"
 
 #: src/en/data/array-libraries.js:43
 msgid "Pint"
-msgstr ""
+msgstr "Pint"
 
 #: src/en/data/projects.js:14
 msgid "Python library for processing spatial data and interpolating it on regular grids"
-msgstr ""
+msgstr "Biblioteca Python para processar dados espaciais e interpolá-los em malhas regulares"
 
 #: src/en/data/team-members.js:5
 msgid "rabernat"
-msgstr ""
+msgstr "rabernat"
 
 #: src/en/data/projects.js:48
 msgid "Raster-based Spatial Analytics for Python"
-msgstr ""
+msgstr "Análise Espacial baseada em rasterização para Python"
 
 #: src/en/data/features.js:33
 msgid "Read and write data to and from NetCDF, HDF, Zarr, OpenDAP, and GRIB."
-msgstr ""
+msgstr "Ler e gravar dados NetCDF, HDF, Zarr, OpenDAP e GRIB."
 
 #: src/en/data/footer-items.js:12
 msgid "Roadmap"
-msgstr ""
+msgstr "Planejamento"
 
 #: src/en/data/team-members.js:5
 msgid "Ryan Abernathey"
-msgstr ""
+msgstr "Ryan Abernathey"
 
 #: src/en/data/projects.js:100
 msgid "Scalable statistical genetic data analysis in Python"
-msgstr ""
+msgstr "Análise de dados estatísticos genéticos escalonáveis em Python"
 
 #: src/en/data/team-members.js:22
 msgid "Scott Henderson"
-msgstr ""
+msgstr "Scott Henderson"
 
 #: src/en/data/team-members.js:22
 msgid "scottyhq"
-msgstr ""
+msgstr "scottyhq"
 
 #: src/en/data/features.js:12
 msgid "Select values by label instead of integer location"
-msgstr ""
+msgstr "Selecione os valores por rótulo em vez do índice inteiro"
 
 #: src/en/data/projects.js:99
 msgid "sgkit"
-msgstr ""
+msgstr "sgkit"
 
 #: src/en/data/team-members.js:3
 msgid "shoyer"
-msgstr ""
+msgstr "shoyer"
 
 #: src/en/data/array-libraries.js:36
 msgid "Sparse"
-msgstr ""
+msgstr "Sparse"
 
 #: src/en/data/array-libraries.js:37
 msgid "Sparse multi-dimensional arrays for the PyData ecosystem"
-msgstr ""
+msgstr "Matrizes esparsas multidimensionais para o ecossistema PyData"
 
 #: src/en/data/team-members.js:11
 msgid "Spencer Clark"
-msgstr ""
+msgstr "Spencer Clark"
 
 #: src/en/data/team-members.js:11
 msgid "spencerkclark"
-msgstr ""
+msgstr "spencerkclark"
 
 #: src/en/data/menu-items.js:6
 msgid "Sponsors"
-msgstr ""
+msgstr "Patrocinadores"
 
 #: src/en/data/projects.js:55
 msgid "SquidPy"
-msgstr ""
+msgstr "SquidPy"
 
 #: src/en/data/footer-items.js:45
 msgid "Stack Overflow"
-msgstr ""
+msgstr "Stack Overflow"
 
 #: src/en/data/team-members.js:3
 msgid "Stephan Hoyer"
-msgstr ""
+msgstr "Stephan Hoyer"
 
 #: src/en/data/footer-items.js:6
 msgid "Team"
-msgstr ""
+msgstr "Equipe"
 
 #: src/en/data/team-members.js:12
 msgid "Tom Nicholas"
-msgstr ""
+msgstr "Tom Nicholas"
 
 #: src/en/data/team-members.js:12
 msgid "TomNicholas"
-msgstr ""
+msgstr "TomNicholas"
 
 #: src/en/data/menu-items.js:4
 msgid "Try"
-msgstr ""
+msgstr "Experimentar"
 
 #: src/en/data/footer-items.js:24
 msgid "Tutorials"
-msgstr ""
+msgstr "Tutoriais"
 
 #: src/en/data/features.js:16
 msgid "Vectorized operations"
-msgstr ""
+msgstr "Operações vetorizadas"
 
 #: src/en/data/projects.js:12
 msgid "verde"
-msgstr ""
+msgstr "verde"
 
 #: src/en/data/projects.js:40
 msgid "Verification of weather and climate forecasts"
-msgstr ""
+msgstr "Verificação do tempo e previsão do clima"
 
 #: src/en/data/projects.js:47
 msgid "xarray-spatial"
-msgstr ""
+msgstr "xarray-spatial"
 
 #: src/en/data/projects.js:4
 msgid "xgcm"
-msgstr ""
+msgstr "xgcm"
 
 #: src/en/data/projects.js:107
 msgid "xmip"
-msgstr ""
+msgstr "xmip"
 
 #: src/en/data/array-libraries.js:28
 msgid "Zarr"
-msgstr ""
+msgstr "Zarr"
 
