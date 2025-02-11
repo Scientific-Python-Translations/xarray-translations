@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-07-03 15:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: pl\n"
+"Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2025-02-11 15:03\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Crowdin-Project: c8a631743e21d4c69bee82f0cb0d697e\n"
+"X-Crowdin-Project-ID: 14\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /[Scientific-Python-Translations.xarray-translations] main/src/en/components.po\n"
+"X-Crowdin-File-ID: 714\n"
+
+#: src/en/components/footer.js:75
+msgid ", Xarray core developers. Apache 2.0\n"
+"Licensed."
+msgstr ""
+
+#: src/en/components/dashboard/timeline-plot-container.js:42
+msgid "."
+msgstr ""
+
+#: src/en/components/footer.js:75
+msgid "©"
+msgstr ""
+
+#: src/en/components/donate.js:40
+msgid "501(c)(3) nonprofit charity"
+msgstr ""
+
+#: src/en/components/donate.js:19
+msgid "Donate"
+msgstr ""
+
+#: src/en/components/ecosystem.js:56
+msgid "Ecosystem"
+msgstr ""
+
+#: src/en/components/dashboard/datasette-stats-card.js:9
+#: src/en/components/dashboard/timeseries-agg-stats-card.js:11
+msgid "failed to load"
+msgstr ""
+
+#: src/en/components/donate.js:48
+msgid "for more information."
+msgstr ""
+
+#: src/en/components/donate.js:49
+msgid "If you like Xarray and want to support our mission, please\n"
+"consider making a donation to support our efforts."
+msgstr ""
+
+#: src/en/components/donate.js:40
+msgid "in the United States. NumFOCUS provides Xarray with fiscal, legal,\n"
+"and administrative support to help ensure the health and\n"
+"sustainability of the project. Visit"
+msgstr ""
+
+#: src/en/components/hero-banner.js:39
+msgid "is an open source project and Python\n"
+"package that introduces labels in the form of dimensions,\n"
+"coordinates, and attributes on top of raw NumPy-like arrays, which\n"
+"allows for more intuitive, more concise, and less error-prone user\n"
+"experience."
+msgstr ""
+
+#: src/en/components/features.js:22
+msgid "Key Features & Capabilities"
+msgstr ""
+
+#: src/en/components/hero-banner.js:36
+msgid "N-D labeled arrays and datasets in Python"
+msgstr ""
+
+#: src/en/components/donate.js:48
+msgid "numfocus.org"
+msgstr ""
+
+#: src/en/components/sponsors.js:15
+msgid "Supported By"
+msgstr ""
+
+#: src/en/components/dashboard/timeline-plot-container.js:40
+msgid "This is a timeline of how many open issues and pull requests Xarray has\n"
+"on Github over time from"
+msgstr ""
+
+#: src/en/components/scientific-domains.js:14
+msgid "This section lists some of the standalone packages, projects developed\n"
+"with xarray."
+msgstr ""
+
+#: src/en/components/dashboard/timeline-plot-container.js:41
+msgid "to"
+msgstr ""
+
+#: src/en/components/repl.js:68
+msgid "Try Xarray"
+msgstr ""
+
+#: src/en/components/repl.js:69
+msgid "Try Xarray in a REPL directly in your browser (no installation\n"
+"needed)!"
+msgstr ""
+
+#: src/en/components/sponsors.js:16
+msgid "We thank these institutions for generously supporting the development\n"
+"and maintenance of Xarray."
+msgstr ""
+
+#: src/en/components/hero-banner.js:34
+#: src/en/components/hero-banner.js:39
+msgid "Xarray"
+msgstr ""
+
+#: src/en/components/hero-banner.js:44
+msgid "Xarray includes a large and growing library of domain-agnostic\n"
+"functions for advanced analytics and visualization with these data\n"
+"structures."
+msgstr ""
+
+#: src/en/components/donate.js:34
+msgid "Xarray is a Sponsored Project of NumFOCUS, a"
+msgstr ""
+
+#: src/en/components/ecosystem.js:57
+msgid "Xarray is part of the larger scientific Python ecosystem. It is built\n"
+"on top of NumPy, Pandas, and Dask and supports a wide range of domain\n"
+"specific scientific applications."
+msgstr ""
+
+#: src/en/components/dashboard/issue-tracker.js:13
+msgid "Xarray Issue Tracker"
+msgstr ""
+
+#: src/en/components/dashboard/project-metrics.js:39
+msgid "Xarray Project Metrics"
+msgstr ""
+
+#: src/en/components/features.js:23
+msgid "Xarray provides data models for working with labeled arrays and\n"
+"datasets. Its toolkit includes a broad set of domain-agnostic\n"
+"functions for advanced analytics and visualization with these data\n"
+"structures."
+msgstr ""
+
+#: src/en/components/array-libraries.js:48
+msgid "Xarray supports multiple array backends, allowing users to choose array\n"
+"types that work best for their application."
+msgstr ""
+
