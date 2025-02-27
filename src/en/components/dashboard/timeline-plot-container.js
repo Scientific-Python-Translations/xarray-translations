@@ -36,7 +36,7 @@ export const TimelinePlotContainer = () => {
   const end = d3.max(data, (d) => d.time)
 
   return (
-    (<Box my={8}>
+    <Box my={8}>
       <Text fontSize={'md'} align={'center'}>{t`This is a timeline of how many open issues and pull requests Xarray has
         on Github over time from`}{new Date(start).toLocaleDateString()}{t`to`}{' '}
         {new Date(end).toLocaleDateString()}{t`.`}</Text>
@@ -68,6 +68,6 @@ export const TimelinePlotContainer = () => {
           </TabPanel>
         </TabPanels>
       </Tabs>
-    </Box>)
+    </Box>
   );
 }

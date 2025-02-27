@@ -51,7 +51,7 @@ const GitHubStats = () => {
 
 export const Ecosystem = () => {
   return (
-    (<Box id={'ecosystem'} as='section'>
+    <Box id={'ecosystem'} as='section'>
       <Container maxW='container.lg' centerContent>
         <Heading as='h1' size='2xl'>{t`Ecosystem`}</Heading>
         <Text fontSize={'lg'}>{t`Xarray is part of the larger scientific Python ecosystem. It is built
@@ -83,6 +83,6 @@ export const Ecosystem = () => {
           </TabPanels>
         </Tabs>
       </Container>
-    </Box>)
+    </Box>
   );
 }
