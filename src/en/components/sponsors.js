@@ -10,7 +10,7 @@ export const Sponsors = () => {
   const sponsors = React.useMemo(() => data, [])
 
   return (
-    (<Box id={'sponsors'} as='section'>
+    <Box id={'sponsors'} as='section'>
       <Container maxW='container.lg' centerContent>
         <Heading as='h1' size='2xl'>{t`Supported By`}</Heading>
         <Text fontSize={'lg'}>{t`We thank these institutions for generously supporting the development
@@ -39,6 +39,6 @@ export const Sponsors = () => {
           ))}
         </SimpleGrid>
       </Container>
-    </Box>)
+    </Box>
   );
 }

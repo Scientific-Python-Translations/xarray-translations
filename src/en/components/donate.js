@@ -14,7 +14,7 @@ import { BiDonateHeart } from 'react-icons/bi'
 
 export const Donate = () => {
   return (
-    (<Box id={'donate'} as='section'>
+    <Box id={'donate'} as='section'>
       <Container maxW='container.lg' centerContent>
         <Heading as='h1' size='2xl'>{t`Donate`}</Heading>
         <SimpleGrid
@@ -67,6 +67,6 @@ export const Donate = () => {
           ></Image>
         </SimpleGrid>
       </Container>
-    </Box>)
+    </Box>
   );
 }
