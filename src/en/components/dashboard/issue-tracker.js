@@ -8,7 +8,7 @@ import { Heading } from '@/components/mdx'
 
 export const IssueTracker = () => {
   return (
-    (<Box as='section' id='issue-tracker'>
+    <Box as='section' id='issue-tracker'>
       <Container maxW='container.lg'>
         <Heading as='h2' size='xl' textAlign={'center'}>{t`Xarray Issue Tracker`}</Heading>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 5, lg: 8 }}>
@@ -30,6 +30,6 @@ export const IssueTracker = () => {
         </SimpleGrid>
         <TimelinePlotContainer />
       </Container>
-    </Box>)
+    </Box>
   );
 }
