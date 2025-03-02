@@ -5,7 +5,7 @@ import { Image, Link } from '@/components/mdx'
 
 export const HeroBanner = () => {
   return (
-    (<Box as='section'>
+    <Box as='section'>
       <Container maxW='container.lg' py={24} centerContent>
         <Stack
           align={'center'}
@@ -78,6 +78,6 @@ export const HeroBanner = () => {
           </Stack>
         </Stack>
       </Container>
-    </Box>)
+    </Box>
   );
 }

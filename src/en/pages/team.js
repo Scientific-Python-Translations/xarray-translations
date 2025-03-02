@@ -7,7 +7,7 @@ import { Box, Container, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 
 const Team = () => {
   return (
-    (<Layout
+    <Layout
       title={'Xarray Contributors'}
       card={
         'https://raw.githubusercontent.com/xarray-contrib/xarray.dev/main/public/Xarray-assets/Icon/Xarray_Icon_Final.png'
@@ -54,7 +54,7 @@ const Team = () => {
           </Box>
         </Container>
       </Box>
-    </Layout>)
+    </Layout>
   );
 }
 

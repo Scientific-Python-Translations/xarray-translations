@@ -33,7 +33,7 @@ export const ProjectMetrics = () => {
   const year = dateObj.getFullYear()
 
   return (
-    (<Box as='section' id='metrics'>
+    <Box as='section' id='metrics'>
       <Container maxW='container.lg'>
         {' '}
         <Heading as='h2' size='xl' textAlign={'center'}>{t`Xarray Project Metrics`}</Heading>
@@ -85,6 +85,6 @@ export const ProjectMetrics = () => {
           />
         </SimpleGrid>
       </Container>
-    </Box>)
+    </Box>
   );
 }
