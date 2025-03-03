@@ -44,7 +44,7 @@ const Library = ({ name, description, repo, url, logo }) => {
 export const ArrayLibraries = () => {
   const libraries = React.useMemo(() => data, [])
   return (
-    (<Box my={8}>
+    <Box my={8}>
       <Text fontSize={'lg'}>{t`Xarray supports multiple array backends, allowing users to choose array
         types that work best for their application.`}</Text>
       <SimpleGrid
@@ -64,6 +64,6 @@ export const ArrayLibraries = () => {
           />
         ))}
       </SimpleGrid>
-    </Box>)
+    </Box>
   );
 }
