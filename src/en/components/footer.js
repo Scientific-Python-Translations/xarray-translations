@@ -53,7 +53,7 @@ const ListHeader = ({ children }) => {
 
 export const Footer = () => {
   return (
-    (<Box
+    <Box
       bg={useColorModeValue('gray.50', 'gray.900')}
       color={useColorModeValue('gray.700', 'gray.200')}
       as='footer'
@@ -156,6 +156,6 @@ export const Footer = () => {
           <VercelCallout />
         </VStack>
       </Container>
-    </Box>)
+    </Box>
   );
 }
