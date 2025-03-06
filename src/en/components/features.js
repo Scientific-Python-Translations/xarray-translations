@@ -17,7 +17,7 @@ import { CheckIcon } from '@chakra-ui/icons'
 export const Features = () => {
   const features = React.useMemo(() => data, [])
   return (
-    (<Box id={'features'} as='section'>
+    <Box id={'features'} as='section'>
       <Container maxW='container.lg' centerContent>
         <Heading as='h1' size='2xl'>{t`Key Features & Capabilities`}</Heading>
         <Text fontSize={'lg'}>{t`Xarray provides data models for working with labeled arrays and
@@ -39,6 +39,6 @@ export const Features = () => {
           ))}
         </SimpleGrid>
       </Container>
-    </Box>)
+    </Box>
   );
 }
