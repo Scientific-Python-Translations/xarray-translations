@@ -10,7 +10,7 @@ export const ScientificDomains = () => {
   const projects = React.useMemo(() => Projects, [])
 
   return (
-    (<Box my={8}>
+    <Box my={8}>
       <Text fontSize={'lg'}>{t`This section lists some of the standalone packages, projects developed
         with xarray.`}</Text>
       <SimpleGrid
@@ -42,6 +42,6 @@ export const ScientificDomains = () => {
       >
         See More
       </Button>
-    </Box>)
+    </Box>
   );
 }
