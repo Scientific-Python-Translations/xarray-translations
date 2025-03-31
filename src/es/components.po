@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-07-03 15:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: es\n"
+"Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2025-03-31 23:18\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: c8a631743e21d4c69bee82f0cb0d697e\n"
+"X-Crowdin-Project-ID: 14\n"
+"X-Crowdin-Language: es\n"
+"X-Crowdin-File: /main/src/en/components.po\n"
+"X-Crowdin-File-ID: 1030\n"
+
+#: src/en/components/footer.js:75
+msgid ", Xarray core developers. Apache 2.0\n"
+"Licensed."
+msgstr ", desarrolladores principales de Xarray. Licencia Apache 2.0"
+
+#: src/en/components/dashboard/timeline-plot-container.js:42
+msgid "."
+msgstr "."
+
+#: src/en/components/footer.js:75
+msgid "©"
+msgstr "©"
+
+#: src/en/components/donate.js:40
+msgid "501(c)(3) nonprofit charity"
+msgstr "501(c)(3) organización benéfica sin fines de lucro"
+
+#: src/en/components/donate.js:19
+msgid "Donate"
+msgstr "Donar"
+
+#: src/en/components/ecosystem.js:56
+msgid "Ecosystem"
+msgstr "Ecosistema"
+
+#: src/en/components/dashboard/datasette-stats-card.js:9
+#: src/en/components/dashboard/timeseries-agg-stats-card.js:11
+msgid "failed to load"
+msgstr "Falla en la carga"
+
+#: src/en/components/donate.js:48
+msgid "for more information."
+msgstr "para más información."
+
+#: src/en/components/donate.js:49
+msgid "If you like Xarray and want to support our mission, please\n"
+"consider making a donation to support our efforts."
+msgstr "Si te gusta Xarray y quieres apoyar nuestra misión, por favor considere hacer una donación para apoyar nuestros esfuerzos."
+
+#: src/en/components/donate.js:40
+msgid "in the United States. NumFOCUS provides Xarray with fiscal, legal,\n"
+"and administrative support to help ensure the health and\n"
+"sustainability of the project. Visit"
+msgstr "en los Estados Unidos. NumFOCUS proporciona a Xarray apoyo fiscal, legal y administrativo para ayudar a garantizar la sostenibilidad del proyecto. Visita"
+
+#: src/en/components/hero-banner.js:39
+msgid "is an open source project and Python\n"
+"package that introduces labels in the form of dimensions,\n"
+"coordinates, and attributes on top of raw NumPy-like arrays, which\n"
+"allows for more intuitive, more concise, and less error-prone user\n"
+"experience."
+msgstr "es un proyecto de código abierto y un paquete de Python que introduce etiquetas en forma de dimensiones, coordenadas y atributos sobre matrices/arreglos de tipo NumPy, lo que permite una experiencia de usuario más intuitiva, más concisa y menos propensa a errores."
+
+#: src/en/components/features.js:22
+msgid "Key Features & Capabilities"
+msgstr "Características y capacidades"
+
+#: src/en/components/hero-banner.js:36
+msgid "N-D labeled arrays and datasets in Python"
+msgstr "Arreglos y conjuntos de datos n-dimensionales etiquetados en Python"
+
+#: src/en/components/donate.js:48
+msgid "numfocus.org"
+msgstr "numfocus.org"
+
+#: src/en/components/sponsors.js:15
+msgid "Supported By"
+msgstr "Con el apoyo de"
+
+#: src/en/components/dashboard/timeline-plot-container.js:40
+msgid "This is a timeline of how many open issues and pull requests Xarray has\n"
+"on Github over time from"
+msgstr "Esta es una línea de tiempo de cuántos reportes  abiertos y solicitudes de cambio tiene Xarray en Github a lo largo del tiempo desde"
+
+#: src/en/components/scientific-domains.js:14
+msgid "This section lists some of the standalone packages, projects developed\n"
+"with xarray."
+msgstr "Esta sección enumera algunos de los paquetes independientes y proyectos desarrollados con Xarray."
+
+#: src/en/components/dashboard/timeline-plot-container.js:41
+msgid "to"
+msgstr "a/de?"
+
+#: src/en/components/repl.js:68
+msgid "Try Xarray"
+msgstr "Prueba Xarray"
+
+#: src/en/components/repl.js:69
+msgid "Try Xarray in a REPL directly in your browser (no installation\n"
+"needed)!"
+msgstr "¡Pruebe Xarray en una consola directamente en su navegador (no requiere instalación)!"
+
+#: src/en/components/sponsors.js:16
+msgid "We thank these institutions for generously supporting the development\n"
+"and maintenance of Xarray."
+msgstr "Agradecemos a estas instituciones por apoyar generosamente el desarrollo y mantenimiento de Xarray."
+
+#: src/en/components/hero-banner.js:34
+#: src/en/components/hero-banner.js:39
+msgid "Xarray"
+msgstr "Xarray"
+
+#: src/en/components/hero-banner.js:44
+msgid "Xarray includes a large and growing library of domain-agnostic\n"
+"functions for advanced analytics and visualization with these data\n"
+"structures."
+msgstr "Xarray incluye una biblioteca grande y en crecimiento de funciones  dominio para análisis y visualización avanzada con estas estructuras de datos."
+
+#: src/en/components/donate.js:34
+msgid "Xarray is a Sponsored Project of NumFOCUS, a"
+msgstr "Xarray es un proyecto patrocinado por NumFOCUS, un"
+
+#: src/en/components/ecosystem.js:57
+msgid "Xarray is part of the larger scientific Python ecosystem. It is built\n"
+"on top of NumPy, Pandas, and Dask and supports a wide range of domain\n"
+"specific scientific applications."
+msgstr "Xarray es parte del ecosistema científico de Python. Está construido sobre NumPy, Pandas y Dask y soporta una amplia gama de aplicaciones científicas de dominios específicos."
+
+#: src/en/components/dashboard/issue-tracker.js:13
+msgid "Xarray Issue Tracker"
+msgstr "Listado de reportes"
+
+#: src/en/components/dashboard/project-metrics.js:39
+msgid "Xarray Project Metrics"
+msgstr "Métricas del proyecto"
+
+#: src/en/components/features.js:23
+msgid "Xarray provides data models for working with labeled arrays and\n"
+"datasets. Its toolkit includes a broad set of domain-agnostic\n"
+"functions for advanced analytics and visualization with these data\n"
+"structures."
+msgstr "Xarray proporciona modelos de datos para trabajar con matrices y conjuntos de datos etiquetados. Su conjunto de herramientas incluye una amplia gama de funciones para el análisis y la visualización avanzada con estas estructuras de datos."
+
+#: src/en/components/array-libraries.js:48
+msgid "Xarray supports multiple array backends, allowing users to choose array\n"
+"types that work best for their application."
+msgstr "Xarray admite múltiples motores de matrices/arreglos, lo que permite a los usuarios elegir los tipos de estructuras de datos que mejor se adapten para su aplicación."
+
