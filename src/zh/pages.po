@@ -1,0 +1,51 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2024-07-03 15:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh\n"
+"Project-Id-Version: c8a631743e21d4c69bee82f0cb0d697e\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2025-03-31 23:18\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: c8a631743e21d4c69bee82f0cb0d697e\n"
+"X-Crowdin-Project-ID: 14\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /main/src/en/pages.po\n"
+"X-Crowdin-File-ID: 1034\n"
+
+#: src/en/pages/team.js:43
+msgid ". We appreciate all contributions from community to make Xarray\n"
+"thrive."
+msgstr ""
+
+#: src/en/pages/team.js:43
+msgid "370 volunteer contributors"
+msgstr ""
+
+#: src/en/pages/team.js:22
+msgid "Current core maintainers 🤝"
+msgstr ""
+
+#: src/en/pages/team.js:38
+msgid "Our valuable contributors 💖"
+msgstr ""
+
+#: src/en/pages/team.js:19
+msgid "Team"
+msgstr ""
+
+#: src/en/pages/team.js:23
+msgid "Xarray core maintainers are responsible for the ongoing\n"
+"organizational maintenance and technical direction of the Xarray\n"
+"project. The current core team comprises:"
+msgstr ""
+
+#: src/en/pages/team.js:39
+msgid "Xarray is made with love by more than"
+msgstr ""
+
