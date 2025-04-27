@@ -248,8 +248,12 @@ msgid "benbovy"
 msgstr "benbovy"
 
 #: src/en/data/team-members.js:6
-msgid "Benôit Bovy"
-msgstr "Benôit Bovy"
+msgid "Benoît Bovy"
+msgstr "Benoît Bovy"
+
+#: src/en/data/team-members.js:6
+#~ msgid "Benôit Bovy"
+#~ msgstr "Benôit Bovy"
 
 #: src/en/data/footer-items.js:5
 #: src/en/data/menu-items.js:8
