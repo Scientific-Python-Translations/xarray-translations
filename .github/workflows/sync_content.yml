@@ -11,11 +11,11 @@ jobs:
         uses: Scientific-Python-Translations/content-sync@main
         with:
           source-repo: "xarray-contrib/xarray.dev"
-          source-path: "content/en/"
+          source-path: "src/locales/en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/xarray-translations"
-          translations-path: "content/"
-          translations-source-path: "content/en/"
+          translations-path: "src/locales/"
+          translations-source-path: "src/locales/en/"
           translations-ref: "main"
           auto-merge: "false"
           # These are provided by the Scientific Python Project and allow
