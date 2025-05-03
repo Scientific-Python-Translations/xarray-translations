@@ -1,23 +1,17 @@
-name: Sync Content
+name: Clean up
 on:
-  # schedule:
-  #   - cron: '0 5 * * *'  # Daily at 5 am
+  #schedule:
+  #  - cron: '0 12 * * FRI'  # Every Fridat at midnight
   workflow_dispatch:
 jobs:
-  sync_content:
+  clean:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync Xarray Content
-        uses: Scientific-Python-Translations/content-sync@main
+      - name: Clean Xarray translation repository
+        uses: Scientific-Python-Translations/clean-up@main
         with:
-          source-repo: "xarray-contrib/xarray.dev"
-          source-path: "src/locales/en/"
-          source-ref: "main"
           translations-repo: "Scientific-Python-Translations/xarray-translations"
-          translations-path: "src/locales/"
-          translations-source-path: "src/locales/en/"
           translations-ref: "main"
-          auto-merge: "false"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
